@@ -1,0 +1,14 @@
+PODS:
+  - sinesp (0.1.0)
+
+DEPENDENCIES:
+  - sinesp (from `../`)
+
+EXTERNAL SOURCES:
+  sinesp:
+    :path: ../
+
+SPEC CHECKSUMS:
+  sinesp: 326af72f94f00d92a106d85500b3bf1ebde418a6
+
+COCOAPODS: 0.39.0

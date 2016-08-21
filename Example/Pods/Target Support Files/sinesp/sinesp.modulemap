@@ -1,0 +1,6 @@
+framework module sinesp {
+  umbrella header "sinesp-umbrella.h"
+
+  export *
+  module * { export * }
+}
