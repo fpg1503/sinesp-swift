@@ -35,7 +35,7 @@ O Sinesp Cidadão é um módulo do Sistema Nacional de Informações de Seguran�
 > - Art. 144 da Constituição Federal de 1988.
 
 ## Full disclaimer
-I do not take any responsibility for how you use this API/any of its information.
+I do not take any responsibility for how you use this API or any information you obtain using it.
 
 ## Known limitations
 - The API does not respond to API addresses outside Brazil.
