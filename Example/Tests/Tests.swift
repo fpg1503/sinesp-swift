@@ -16,6 +16,11 @@ class Tests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
+        if let plate = Plate(plate: "ABC1234") {
+            SinespClient().information(for: plate) { (info) in
+                print(info)
+            }
+        }
         XCTAssert(true, "Pass")
     }
     

@@ -7,97 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F72FB4ECC815976CDEA39AE27BABD40 /* sinesp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A52EC23CA91B7221AEB08B8F984F3E37 /* sinesp-dummy.m */; };
-		127A1311A426B50EF1A0C4C4893D2286 /* Arcane-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5696430CCD1917E1AA7C06626B1A5C /* Arcane-dummy.m */; };
-		19A1501D60209CD6DB6CA5D681B22F92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18495C98F368233CE567889FD9F4DCAB /* Foundation.framework */; };
-		3BC2C552C104B9C1D2BCB89F9EDA0DF2 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E811FB7622965FD72D0CD91671BFCA /* Hash.swift */; };
-		4041DA3867B12687A5A7B8D8DE438754 /* Arcane.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A736B331EFFB591C6052A1E2723C9382 /* Arcane.framework */; };
-		6550E4A13BC10BC8FB0058A91DB94A22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18495C98F368233CE567889FD9F4DCAB /* Foundation.framework */; };
-		81B98CAE8D93D6C450D36670E04F133D /* sinesp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F41EE6DC17E45C82F60CCBC50ACC6E14 /* sinesp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84281E9A9F7E4E3740A386C209C73226 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5DA3C225E33222BAB309B8600A33B /* AES.swift */; };
-		864F8964A6B09947EAE0C53592203636 /* Pods-sinesp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B55F961AA84B4178D065EAE5A45EFF /* Pods-sinesp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B015D62CC9416783B11D3DE7B5A3E5C /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B133ADCC643BB63B62F4C62A35276F /* Obfuscator.swift */; };
-		A3F4870C1D6943FE006485A2 /* Plate+Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F4870A1D6943DD006485A2 /* Plate+Token.swift */; };
-		A3F4870F1D6946F4006485A2 /* PlateInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F4870D1D694683006485A2 /* PlateInformation.swift */; };
-		A3F487161D6953A4006485A2 /* NSDateFormatter+SINESP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F487121D6951C7006485A2 /* NSDateFormatter+SINESP.swift */; };
-		A3F487171D6953A7006485A2 /* CLLocation+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F487101D694735006485A2 /* CLLocation+Random.swift */; };
-		A3F487181D6953AE006485A2 /* SinespClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F487141D695365006485A2 /* SinespClient.swift */; };
-		A3F4871C1D6A09D7006485A2 /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F4871B1D6A09D7006485A2 /* Requester.swift */; };
-		AE715A89A98639A9FCB2983F119117CA /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C13FB54060A6A26537B57B63F4098 /* Crypto.swift */; };
-		B3E922103DB40EEB50429FD9052E8B09 /* Plate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90981F6D7D2813D0D410E67C066F7C39 /* Plate.swift */; };
-		B7ADC748878EA9874E6FEDBF817BDB86 /* Arcane-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED41D565868332B83C9D4C37091FA1A7 /* Arcane-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA3032321FF2E5EB1958E59B8ADD2DC3 /* Pods-sinesp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F81806345D48E7B90AD09652914E1 /* Pods-sinesp_Tests-dummy.m */; };
-		DAB9BF8939E80908E7C039AA6FAC952E /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EC0C21EDF743274BCA370FD9A40A3 /* HMAC.swift */; };
-		DE89FB671B15A39ED08A9F99E0FCA29F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18495C98F368233CE567889FD9F4DCAB /* Foundation.framework */; };
-		F4625C6E5B8659EF927809DA2A0CA642 /* NSData+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A95972A42587AD2A017B29EB8685A10 /* NSData+Extensions.swift */; };
+		0AD8721845C7D654775E80E1801743D9 /* PlateInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57C2F24F40539209E920FA8052134A /* PlateInformation.swift */; };
+		11473AF291E4DAC3D5C54860D2EA7782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E827317BEBDE07D859DA89A79BFC82C0 /* Foundation.framework */; };
+		127A1311A426B50EF1A0C4C4893D2286 /* Arcane-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1844B2CE7DBAF67ADF6455F0B1ACF6 /* Arcane-dummy.m */; };
+		19A1501D60209CD6DB6CA5D681B22F92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E827317BEBDE07D859DA89A79BFC82C0 /* Foundation.framework */; };
+		2F7342AD98B633E45EF02C8537526B3F /* NSDateFormatter+SINESP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B123C752A16C7EE03A8E8A29843A45C /* NSDateFormatter+SINESP.swift */; };
+		37265CE1900C8B03813F0F542CC9C98E /* Pods-sinesp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F81806345D48E7B90AD09652914E1 /* Pods-sinesp_Tests-dummy.m */; };
+		3BA79A684732B8A40E2398AE3E630BD1 /* Pods-sinesp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B55F961AA84B4178D065EAE5A45EFF /* Pods-sinesp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BC2C552C104B9C1D2BCB89F9EDA0DF2 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F17539E8E2CE59C3DD2EC07637A257 /* Hash.swift */; };
+		438D67D809EBC2AC950710622C6D48E5 /* AEXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F67F2CE74AA750915D6BC91432A159FB /* AEXML-dummy.m */; };
+		7B124D0A9FBE578BA9CC7692CEFE86C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E827317BEBDE07D859DA89A79BFC82C0 /* Foundation.framework */; };
+		84281E9A9F7E4E3740A386C209C73226 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC43E573AC6F83F15AEFB73ADEEA6E /* AES.swift */; };
+		8A5900513929098143609D825DA95D02 /* CLLocation+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BECAB810C5B5C7D670EF83C102692B /* CLLocation+Random.swift */; };
+		8B015D62CC9416783B11D3DE7B5A3E5C /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F608DB84EDBFD8DB75BC8A043A6D13F /* Obfuscator.swift */; };
+		8EE5790B9B43F2AD7C58A5B6A5E743F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E827317BEBDE07D859DA89A79BFC82C0 /* Foundation.framework */; };
+		956CC6513EFD74C7F26D67A0ECA7E290 /* sinesp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A52EC23CA91B7221AEB08B8F984F3E37 /* sinesp-dummy.m */; };
+		9AAF3237CE541DB83247582190649B87 /* Plate+Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3FF9EFE15236E2DE31FF0781DC7794 /* Plate+Token.swift */; };
+		AE715A89A98639A9FCB2983F119117CA /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77805478F4D9A783C75B039CF270D230 /* Crypto.swift */; };
+		AEE2F902DD39AD1F6E664B7A78DFA49F /* SinespClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ACD34618482A6DDA53EBC55BAD0E3E /* SinespClient.swift */; };
+		B34367EF1C0015A2234F6C7FBF125196 /* AEXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E953051CD0467A5483BC85B8A6E1F33 /* AEXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B346A3F08D9632971D52237D73325D9D /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1CFDF5A59617016C87E57E38237DE /* AEXML.swift */; };
+		B7ADC748878EA9874E6FEDBF817BDB86 /* Arcane-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 798C981C440B070961750D7E0A9F7ED9 /* Arcane-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C562AFA310C23618ED99D4FA234F122E /* Plate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867042FB33D2CC903B98614BE0008FAF /* Plate.swift */; };
+		C9DDC4753ED9D8D208FD84F1A294535A /* sinesp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F41EE6DC17E45C82F60CCBC50ACC6E14 /* sinesp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE4BE3DD701F5BB169B786C6D56186D2 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83ADED988D70B042A7FE315EA9BC02F6 /* AEXML.framework */; };
+		D82AB4E74079125E0B6D6616DD75A096 /* Arcane.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6971E2476A4963942718B266572AB3D /* Arcane.framework */; };
+		D99E3221654AC4FBBE617674C16B8B51 /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE635BA201A65BD24A2AA757A7DE62E9 /* Requester.swift */; };
+		DAB9BF8939E80908E7C039AA6FAC952E /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D088927C3B195788624BDCF7D7A08286 /* HMAC.swift */; };
+		F4625C6E5B8659EF927809DA2A0CA642 /* NSData+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5315B208C69511593188605AE5915A35 /* NSData+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3308243013AE5C846CE3BC34B81A6DEE /* PBXContainerItemProxy */ = {
+		84226747669426B81B100DD0980937C8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 72B981E675407CE821008982DE311545;
-			remoteInfo = Arcane;
-		};
-		405969B20CD7FD49FC5C1062CD3C0199 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A8EF15B7C004D6AEE7A5582952B08940;
+			remoteGlobalIDString = B5027A7302A1BB1293A6596355BA9033;
 			remoteInfo = sinesp;
 		};
-		EAFB29F5A3E442B31211904129977279 /* PBXContainerItemProxy */ = {
+		860DC76ADFAD5B6AA7462888F86EDF13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 72B981E675407CE821008982DE311545;
 			remoteInfo = Arcane;
+		};
+		B419F0CCDC53DD212E44901CEDDA8BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72B981E675407CE821008982DE311545;
+			remoteInfo = Arcane;
+		};
+		C04888FA6551A10797FB94544A8D185E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B9813D7E7E5E2BAC2903B82EC58E643;
+			remoteInfo = AEXML;
+		};
+		E0389CC2F1852C820D0CB0D70C79928C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B9813D7E7E5E2BAC2903B82EC58E643;
+			remoteInfo = AEXML;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03674229001DF21B0D4B288BED86E7D6 /* Pods-sinesp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sinesp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		076EC0C21EDF743274BCA370FD9A40A3 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/HMAC.swift; sourceTree = "<group>"; };
-		0A95972A42587AD2A017B29EB8685A10 /* NSData+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSData+Extensions.swift"; path = "Sources/NSData+Extensions.swift"; sourceTree = "<group>"; };
+		05F17539E8E2CE59C3DD2EC07637A257 /* Hash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hash.swift; path = Sources/Hash.swift; sourceTree = "<group>"; };
 		0DAF4FE80920613FF9C7F3708B364E37 /* Pods-sinesp_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sinesp_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0F608DB84EDBFD8DB75BC8A043A6D13F /* Obfuscator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Obfuscator.swift; path = Sources/Obfuscator.swift; sourceTree = "<group>"; };
 		10B55F961AA84B4178D065EAE5A45EFF /* Pods-sinesp_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sinesp_Tests-umbrella.h"; sourceTree = "<group>"; };
-		18495C98F368233CE567889FD9F4DCAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2448B1E165749301D08D43888E39ED7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40F5DA3C225E33222BAB309B8600A33B /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/AES.swift; sourceTree = "<group>"; };
+		1B123C752A16C7EE03A8E8A29843A45C /* NSDateFormatter+SINESP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSDateFormatter+SINESP.swift"; sourceTree = "<group>"; };
+		23ACD34618482A6DDA53EBC55BAD0E3E /* SinespClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SinespClient.swift; sourceTree = "<group>"; };
+		2C5D954E88CFC9AF99509F939530E15A /* AEXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AEXML.modulemap; sourceTree = "<group>"; };
+		4236E5573B0C70D8A96D1D1824438345 /* Pods_sinesp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sinesp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B57C2F24F40539209E920FA8052134A /* PlateInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlateInformation.swift; sourceTree = "<group>"; };
 		4BA412F4F6D5DDBB7CAFD43DF022108F /* sinesp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sinesp.xcconfig; sourceTree = "<group>"; };
-		4EAE05C80A880D1BE84FC597D8D6CAC7 /* Arcane-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arcane-prefix.pch"; sourceTree = "<group>"; };
-		4F5696430CCD1917E1AA7C06626B1A5C /* Arcane-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Arcane-dummy.m"; sourceTree = "<group>"; };
 		5189E421A4D02E571D710B3456B3E372 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62E811FB7622965FD72D0CD91671BFCA /* Hash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hash.swift; path = Sources/Hash.swift; sourceTree = "<group>"; };
+		5315B208C69511593188605AE5915A35 /* NSData+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSData+Extensions.swift"; path = "Sources/NSData+Extensions.swift"; sourceTree = "<group>"; };
+		59BECAB810C5B5C7D670EF83C102692B /* CLLocation+Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CLLocation+Random.swift"; sourceTree = "<group>"; };
+		5E953051CD0467A5483BC85B8A6E1F33 /* AEXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-umbrella.h"; sourceTree = "<group>"; };
+		68FD21ADE8607A8B7F59872CADB30921 /* Arcane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arcane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A667FE953A757C765B04ACC821D4239 /* Pods-sinesp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sinesp_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6D21E866AA4E3043F9B12EE59D2B083A /* AEXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-prefix.pch"; sourceTree = "<group>"; };
 		6F373583DCFE2735B1D0F10EA4991206 /* Pods-sinesp_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sinesp_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77805478F4D9A783C75B039CF270D230 /* Crypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Crypto.swift; path = Sources/Crypto.swift; sourceTree = "<group>"; };
+		798C981C440B070961750D7E0A9F7ED9 /* Arcane-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arcane-umbrella.h"; sourceTree = "<group>"; };
 		7A5F81806345D48E7B90AD09652914E1 /* Pods-sinesp_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sinesp_Tests-dummy.m"; sourceTree = "<group>"; };
 		7BEA353B2C4430EF99798A1CCCB84378 /* sinesp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = sinesp.modulemap; sourceTree = "<group>"; };
-		90981F6D7D2813D0D410E67C066F7C39 /* Plate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Plate.swift; sourceTree = "<group>"; };
+		7E314AFC01103546E42F81275543AFF8 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83ADED988D70B042A7FE315EA9BC02F6 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		867042FB33D2CC903B98614BE0008FAF /* Plate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Plate.swift; sourceTree = "<group>"; };
+		8796FAD0C2AF560752C514BA2273A891 /* Arcane.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Arcane.modulemap; sourceTree = "<group>"; };
+		88F564400AF8B1253C372DC98E3120F7 /* sinesp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sinesp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		988EA04B5D693E05F38F417DB3EA38CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3F4870A1D6943DD006485A2 /* Plate+Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Plate+Token.swift"; sourceTree = "<group>"; };
-		A3F4870D1D694683006485A2 /* PlateInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlateInformation.swift; sourceTree = "<group>"; };
-		A3F487101D694735006485A2 /* CLLocation+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Random.swift"; sourceTree = "<group>"; };
-		A3F487121D6951C7006485A2 /* NSDateFormatter+SINESP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDateFormatter+SINESP.swift"; sourceTree = "<group>"; };
-		A3F487141D695365006485A2 /* SinespClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinespClient.swift; sourceTree = "<group>"; };
-		A3F4871B1D6A09D7006485A2 /* Requester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
+		9C3A6F403A232DEB6C48F02EF12CC87E /* Arcane.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arcane.xcconfig; sourceTree = "<group>"; };
+		A0C24026B86048DE6103FDDEC0385319 /* AEXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEXML.xcconfig; sourceTree = "<group>"; };
 		A52EC23CA91B7221AEB08B8F984F3E37 /* sinesp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sinesp-dummy.m"; sourceTree = "<group>"; };
-		A736B331EFFB591C6052A1E2723C9382 /* Arcane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arcane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B38C13FB54060A6A26537B57B63F4098 /* Crypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Crypto.swift; path = Sources/Crypto.swift; sourceTree = "<group>"; };
+		BA1844B2CE7DBAF67ADF6455F0B1ACF6 /* Arcane-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Arcane-dummy.m"; sourceTree = "<group>"; };
 		BA8F3201060E42E2326D6ADB089FF1CC /* Pods-sinesp_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sinesp_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C7B133ADCC643BB63B62F4C62A35276F /* Obfuscator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Obfuscator.swift; path = Sources/Obfuscator.swift; sourceTree = "<group>"; };
+		BC41253FA95E24E606B67BA3DDD8C972 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3A32BC3919C8D4E5346783E985F79B /* Arcane-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arcane-prefix.pch"; sourceTree = "<group>"; };
+		C011DBF6BD91B36ABDC5704FE098CCF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC5EF984AD22B9F10FAEB9E5D55B0419 /* sinesp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sinesp-prefix.pch"; sourceTree = "<group>"; };
-		CECCD7B9DF88FD4B75F94501A1A28984 /* Pods_sinesp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sinesp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3FF9EFE15236E2DE31FF0781DC7794 /* Plate+Token.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Plate+Token.swift"; sourceTree = "<group>"; };
+		CE635BA201A65BD24A2AA757A7DE62E9 /* Requester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
+		CEBC43E573AC6F83F15AEFB73ADEEA6E /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/AES.swift; sourceTree = "<group>"; };
+		D088927C3B195788624BDCF7D7A08286 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/HMAC.swift; sourceTree = "<group>"; };
 		D20636ADB90C0ED9719928F3A610FE32 /* Pods-sinesp_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sinesp_Tests-resources.sh"; sourceTree = "<group>"; };
-		D8137A5F130C8CC890AE6B98AE05C2B7 /* Arcane.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Arcane.modulemap; sourceTree = "<group>"; };
-		D8634B63E4B8B6335E66553CE6A7358D /* Arcane.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arcane.xcconfig; sourceTree = "<group>"; };
-		E84F13BD596CE5888B9350864E4EEB7F /* Arcane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arcane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED41D565868332B83C9D4C37091FA1A7 /* Arcane-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arcane-umbrella.h"; sourceTree = "<group>"; };
+		D6971E2476A4963942718B266572AB3D /* Arcane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arcane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E827317BEBDE07D859DA89A79BFC82C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F41EE6DC17E45C82F60CCBC50ACC6E14 /* sinesp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sinesp-umbrella.h"; sourceTree = "<group>"; };
+		F67F2CE74AA750915D6BC91432A159FB /* AEXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEXML-dummy.m"; sourceTree = "<group>"; };
 		F8D6EE6077848B7A0DD78B1CC03C3AFC /* Pods-sinesp_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-sinesp_Tests.modulemap"; sourceTree = "<group>"; };
-		FEC7384C1B562BFB54ECEFC27CB79C71 /* sinesp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sinesp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE1CFDF5A59617016C87E57E38237DE /* AEXML.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEXML.swift; path = Sources/AEXML.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,78 +137,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		775F9D0AE906518750D1E3599A313910 /* Frameworks */ = {
+		497708D6EE3AD8313998B4B30AD7F92A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE89FB671B15A39ED08A9F99E0FCA29F /* Foundation.framework in Frameworks */,
+				8EE5790B9B43F2AD7C58A5B6A5E743F0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1BBC83C070F48B35F37FF60BB32314E /* Frameworks */ = {
+		D7B7CC69AA055A498D8466FBB1F3B4C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4041DA3867B12687A5A7B8D8DE438754 /* Arcane.framework in Frameworks */,
-				6550E4A13BC10BC8FB0058A91DB94A22 /* Foundation.framework in Frameworks */,
+				11473AF291E4DAC3D5C54860D2EA7782 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D6EBA2B00210AD53217776D3C4E098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4BE3DD701F5BB169B786C6D56186D2 /* AEXML.framework in Frameworks */,
+				D82AB4E74079125E0B6D6616DD75A096 /* Arcane.framework in Frameworks */,
+				7B124D0A9FBE578BA9CC7692CEFE86C3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		066BBFC69FFF85FFAD0A8DAB346452A6 /* sinesp */ = {
-			isa = PBXGroup;
-			children = (
-				48536645096B0533C2E00732E803D22F /* Classes */,
-			);
-			path = sinesp;
-			sourceTree = "<group>";
-		};
-		0AB8739D6E0055FBFC30340AAAA7D408 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D8137A5F130C8CC890AE6B98AE05C2B7 /* Arcane.modulemap */,
-				D8634B63E4B8B6335E66553CE6A7358D /* Arcane.xcconfig */,
-				4F5696430CCD1917E1AA7C06626B1A5C /* Arcane-dummy.m */,
-				4EAE05C80A880D1BE84FC597D8D6CAC7 /* Arcane-prefix.pch */,
-				ED41D565868332B83C9D4C37091FA1A7 /* Arcane-umbrella.h */,
-				2448B1E165749301D08D43888E39ED7E /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Arcane";
-			sourceTree = "<group>";
-		};
-		18A0F0289041AA232F783A2EFD39FAAC /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				18495C98F368233CE567889FD9F4DCAB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		18E9D3E99ECBDC32EE1FB6ECE70AA50D /* Arcane */ = {
-			isa = PBXGroup;
-			children = (
-				40F5DA3C225E33222BAB309B8600A33B /* AES.swift */,
-				B38C13FB54060A6A26537B57B63F4098 /* Crypto.swift */,
-				62E811FB7622965FD72D0CD91671BFCA /* Hash.swift */,
-				076EC0C21EDF743274BCA370FD9A40A3 /* HMAC.swift */,
-				0A95972A42587AD2A017B29EB8685A10 /* NSData+Extensions.swift */,
-				C7B133ADCC643BB63B62F4C62A35276F /* Obfuscator.swift */,
-				0AB8739D6E0055FBFC30340AAAA7D408 /* Support Files */,
-			);
-			path = Arcane;
-			sourceTree = "<group>";
-		};
 		1A078E40D599A42FB7D5670968144169 /* sinesp */ = {
 			isa = PBXGroup;
 			children = (
-				066BBFC69FFF85FFAD0A8DAB346452A6 /* sinesp */,
+				488A2A00B446CF2DF21AB76EB01A6445 /* sinesp */,
 				E8F15C9D05D0DDBB50C243FEBFA4C5ED /* Support Files */,
 			);
 			name = sinesp;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		2475A8C419C071B835EACC80653133AF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				59BECAB810C5B5C7D670EF83C102692B /* CLLocation+Random.swift */,
+				1B123C752A16C7EE03A8E8A29843A45C /* NSDateFormatter+SINESP.swift */,
+				867042FB33D2CC903B98614BE0008FAF /* Plate.swift */,
+				CD3FF9EFE15236E2DE31FF0781DC7794 /* Plate+Token.swift */,
+				4B57C2F24F40539209E920FA8052134A /* PlateInformation.swift */,
+				CE635BA201A65BD24A2AA757A7DE62E9 /* Requester.swift */,
+				23ACD34618482A6DDA53EBC55BAD0E3E /* SinespClient.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		41D9677EDD8D56C69FA21DAD8182AB05 /* Targets Support Files */ = {
@@ -191,28 +198,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		48536645096B0533C2E00732E803D22F /* Classes */ = {
+		488A2A00B446CF2DF21AB76EB01A6445 /* sinesp */ = {
 			isa = PBXGroup;
 			children = (
-				90981F6D7D2813D0D410E67C066F7C39 /* Plate.swift */,
-				A3F4870A1D6943DD006485A2 /* Plate+Token.swift */,
-				A3F4870D1D694683006485A2 /* PlateInformation.swift */,
-				A3F487101D694735006485A2 /* CLLocation+Random.swift */,
-				A3F487121D6951C7006485A2 /* NSDateFormatter+SINESP.swift */,
-				A3F487141D695365006485A2 /* SinespClient.swift */,
-				A3F4871B1D6A09D7006485A2 /* Requester.swift */,
+				2475A8C419C071B835EACC80653133AF /* Classes */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		565DEB38685E9825283D2097969DFE93 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E84F13BD596CE5888B9350864E4EEB7F /* Arcane.framework */,
-				CECCD7B9DF88FD4B75F94501A1A28984 /* Pods_sinesp_Tests.framework */,
-				FEC7384C1B562BFB54ECEFC27CB79C71 /* sinesp.framework */,
-			);
-			name = Products;
+			path = sinesp;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -220,9 +211,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				F6789880AB9662D5A4E6ABAB603AA321 /* Development Pods */,
-				E83135AEED0FE5CCDCCC640E24D8A263 /* Frameworks */,
-				8B96ACAEBCF40B7BF613C20DCAED1185 /* Pods */,
-				565DEB38685E9825283D2097969DFE93 /* Products */,
+				91DE348C58D45A7E96647BFC25E860BF /* Frameworks */,
+				946600AFABE916D14511EEC49A3138B6 /* Pods */,
+				DD798DFAD213BD58D6109BDBE27A2217 /* Products */,
 				41D9677EDD8D56C69FA21DAD8182AB05 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -245,21 +236,93 @@
 			path = "Target Support Files/Pods-sinesp_Tests";
 			sourceTree = "<group>";
 		};
-		8B96ACAEBCF40B7BF613C20DCAED1185 /* Pods */ = {
+		91DE348C58D45A7E96647BFC25E860BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18E9D3E99ECBDC32EE1FB6ECE70AA50D /* Arcane */,
+				83ADED988D70B042A7FE315EA9BC02F6 /* AEXML.framework */,
+				D6971E2476A4963942718B266572AB3D /* Arcane.framework */,
+				DDB266427632AA17DF4ECE8A9F4C3FE4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		946600AFABE916D14511EEC49A3138B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1AB1ED505A6D5857DD3705427BB9B87 /* AEXML */,
+				C0F5B9291831845E737A0FD99495530B /* Arcane */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E83135AEED0FE5CCDCCC640E24D8A263 /* Frameworks */ = {
+		97AA8C1F125DC24FFF7DE6FE17991CA9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A736B331EFFB591C6052A1E2723C9382 /* Arcane.framework */,
-				18A0F0289041AA232F783A2EFD39FAAC /* iOS */,
+				8796FAD0C2AF560752C514BA2273A891 /* Arcane.modulemap */,
+				9C3A6F403A232DEB6C48F02EF12CC87E /* Arcane.xcconfig */,
+				BA1844B2CE7DBAF67ADF6455F0B1ACF6 /* Arcane-dummy.m */,
+				BF3A32BC3919C8D4E5346783E985F79B /* Arcane-prefix.pch */,
+				798C981C440B070961750D7E0A9F7ED9 /* Arcane-umbrella.h */,
+				BC41253FA95E24E606B67BA3DDD8C972 /* Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/Arcane";
+			sourceTree = "<group>";
+		};
+		C0F5B9291831845E737A0FD99495530B /* Arcane */ = {
+			isa = PBXGroup;
+			children = (
+				CEBC43E573AC6F83F15AEFB73ADEEA6E /* AES.swift */,
+				77805478F4D9A783C75B039CF270D230 /* Crypto.swift */,
+				05F17539E8E2CE59C3DD2EC07637A257 /* Hash.swift */,
+				D088927C3B195788624BDCF7D7A08286 /* HMAC.swift */,
+				5315B208C69511593188605AE5915A35 /* NSData+Extensions.swift */,
+				0F608DB84EDBFD8DB75BC8A043A6D13F /* Obfuscator.swift */,
+				97AA8C1F125DC24FFF7DE6FE17991CA9 /* Support Files */,
+			);
+			path = Arcane;
+			sourceTree = "<group>";
+		};
+		C1D33EC8AFC757B13BEA4E57CBF12469 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D954E88CFC9AF99509F939530E15A /* AEXML.modulemap */,
+				A0C24026B86048DE6103FDDEC0385319 /* AEXML.xcconfig */,
+				F67F2CE74AA750915D6BC91432A159FB /* AEXML-dummy.m */,
+				6D21E866AA4E3043F9B12EE59D2B083A /* AEXML-prefix.pch */,
+				5E953051CD0467A5483BC85B8A6E1F33 /* AEXML-umbrella.h */,
+				C011DBF6BD91B36ABDC5704FE098CCF8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AEXML";
+			sourceTree = "<group>";
+		};
+		DD798DFAD213BD58D6109BDBE27A2217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E314AFC01103546E42F81275543AFF8 /* AEXML.framework */,
+				68FD21ADE8607A8B7F59872CADB30921 /* Arcane.framework */,
+				4236E5573B0C70D8A96D1D1824438345 /* Pods_sinesp_Tests.framework */,
+				88F564400AF8B1253C372DC98E3120F7 /* sinesp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB266427632AA17DF4ECE8A9F4C3FE4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E827317BEBDE07D859DA89A79BFC82C0 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E1AB1ED505A6D5857DD3705427BB9B87 /* AEXML */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1CFDF5A59617016C87E57E38237DE /* AEXML.swift */,
+				C1D33EC8AFC757B13BEA4E57CBF12469 /* Support Files */,
+			);
+			path = AEXML;
 			sourceTree = "<group>";
 		};
 		E8F15C9D05D0DDBB50C243FEBFA4C5ED /* Support Files */ = {
@@ -287,14 +350,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		14D36A1B3A7CF5866778858F074D5B36 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				864F8964A6B09947EAE0C53592203636 /* Pods-sinesp_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		44FE04F84C9641FA65CB82107644A229 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,17 +358,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D55C22D551D96E4976FA15829D2CFCA9 /* Headers */ = {
+		48AEA27116225B71FAED7900D193A195 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B98CAE8D93D6C450D36670E04F133D /* sinesp-umbrella.h in Headers */,
+				B34367EF1C0015A2234F6C7FBF125196 /* AEXML-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAF8D2532C38933EACD8D3220FC2453 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA79A684732B8A40E2398AE3E630BD1 /* Pods-sinesp_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FC6AD3E690A44AEC1704E69230BCC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DDC4753ED9D8D208FD84F1A294535A /* sinesp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		6B9813D7E7E5E2BAC2903B82EC58E643 /* AEXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB99F68354F647FD7968E39CE9540528 /* Build configuration list for PBXNativeTarget "AEXML" */;
+			buildPhases = (
+				A1EAE2BEF79D977B3843811E59BA2AFD /* Sources */,
+				D7B7CC69AA055A498D8466FBB1F3B4C8 /* Frameworks */,
+				48AEA27116225B71FAED7900D193A195 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AEXML;
+			productName = AEXML;
+			productReference = 7E314AFC01103546E42F81275543AFF8 /* AEXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		72B981E675407CE821008982DE311545 /* Arcane */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C775D8BA786F306E0D5263DF234850FB /* Build configuration list for PBXNativeTarget "Arcane" */;
@@ -328,44 +416,46 @@
 			);
 			name = Arcane;
 			productName = Arcane;
-			productReference = E84F13BD596CE5888B9350864E4EEB7F /* Arcane.framework */;
+			productReference = 68FD21ADE8607A8B7F59872CADB30921 /* Arcane.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8FFCFE2A444E4A705F6AECB875D83E3E /* Pods-sinesp_Tests */ = {
+		B5027A7302A1BB1293A6596355BA9033 /* sinesp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7289F836F10825579003DCC4140578F8 /* Build configuration list for PBXNativeTarget "Pods-sinesp_Tests" */;
+			buildConfigurationList = 12B0C110CE779983D39B047820061761 /* Build configuration list for PBXNativeTarget "sinesp" */;
 			buildPhases = (
-				BC896F9CF5D5F17A15593DDC90E860C3 /* Sources */,
-				775F9D0AE906518750D1E3599A313910 /* Frameworks */,
-				14D36A1B3A7CF5866778858F074D5B36 /* Headers */,
+				75743222FDE5069D2909DD9052C30A44 /* Sources */,
+				E7D6EBA2B00210AD53217776D3C4E098 /* Frameworks */,
+				E1FC6AD3E690A44AEC1704E69230BCC6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9BC683F30171750DF87780073B2803A2 /* PBXTargetDependency */,
-				A120353A3FE277FD467EA56443A47909 /* PBXTargetDependency */,
-			);
-			name = "Pods-sinesp_Tests";
-			productName = "Pods-sinesp_Tests";
-			productReference = CECCD7B9DF88FD4B75F94501A1A28984 /* Pods_sinesp_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A8EF15B7C004D6AEE7A5582952B08940 /* sinesp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4AA19A5A24E09D13062D219911C1E002 /* Build configuration list for PBXNativeTarget "sinesp" */;
-			buildPhases = (
-				31FC8DB19EDE62275F4A400BE3F5AC30 /* Sources */,
-				B1BBC83C070F48B35F37FF60BB32314E /* Frameworks */,
-				D55C22D551D96E4976FA15829D2CFCA9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				50035C3524F8EC542FC4F21B6962CFB7 /* PBXTargetDependency */,
+				9B11E4ED02449E1BE59639EFF88248FD /* PBXTargetDependency */,
+				B8DA932CE17E2447970F2E42DC3515DD /* PBXTargetDependency */,
 			);
 			name = sinesp;
 			productName = sinesp;
-			productReference = FEC7384C1B562BFB54ECEFC27CB79C71 /* sinesp.framework */;
+			productReference = 88F564400AF8B1253C372DC98E3120F7 /* sinesp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D53D28D010389591F73B86902DC3DCA2 /* Pods-sinesp_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EDB50B6A927E56EB448690EB6A119B /* Build configuration list for PBXNativeTarget "Pods-sinesp_Tests" */;
+			buildPhases = (
+				BD3CBF3954E7A2196AD5109CC1DDCD48 /* Sources */,
+				497708D6EE3AD8313998B4B30AD7F92A /* Frameworks */,
+				CEAF8D2532C38933EACD8D3220FC2453 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A579244A6A4351A7DCFE49BEF54F4DB /* PBXTargetDependency */,
+				274C12DD8E47D6454F821F69A746D434 /* PBXTargetDependency */,
+				4431C096F39C861B29725983F424B46D /* PBXTargetDependency */,
+			);
+			name = "Pods-sinesp_Tests";
+			productName = "Pods-sinesp_Tests";
+			productReference = 4236E5573B0C70D8A96D1D1824438345 /* Pods_sinesp_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -385,30 +475,31 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 565DEB38685E9825283D2097969DFE93 /* Products */;
+			productRefGroup = DD798DFAD213BD58D6109BDBE27A2217 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				6B9813D7E7E5E2BAC2903B82EC58E643 /* AEXML */,
 				72B981E675407CE821008982DE311545 /* Arcane */,
-				8FFCFE2A444E4A705F6AECB875D83E3E /* Pods-sinesp_Tests */,
-				A8EF15B7C004D6AEE7A5582952B08940 /* sinesp */,
+				D53D28D010389591F73B86902DC3DCA2 /* Pods-sinesp_Tests */,
+				B5027A7302A1BB1293A6596355BA9033 /* sinesp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		31FC8DB19EDE62275F4A400BE3F5AC30 /* Sources */ = {
+		75743222FDE5069D2909DD9052C30A44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3F487171D6953A7006485A2 /* CLLocation+Random.swift in Sources */,
-				B3E922103DB40EEB50429FD9052E8B09 /* Plate.swift in Sources */,
-				A3F4871C1D6A09D7006485A2 /* Requester.swift in Sources */,
-				A3F4870F1D6946F4006485A2 /* PlateInformation.swift in Sources */,
-				A3F4870C1D6943FE006485A2 /* Plate+Token.swift in Sources */,
-				A3F487181D6953AE006485A2 /* SinespClient.swift in Sources */,
-				A3F487161D6953A4006485A2 /* NSDateFormatter+SINESP.swift in Sources */,
-				0F72FB4ECC815976CDEA39AE27BABD40 /* sinesp-dummy.m in Sources */,
+				8A5900513929098143609D825DA95D02 /* CLLocation+Random.swift in Sources */,
+				2F7342AD98B633E45EF02C8537526B3F /* NSDateFormatter+SINESP.swift in Sources */,
+				9AAF3237CE541DB83247582190649B87 /* Plate+Token.swift in Sources */,
+				C562AFA310C23618ED99D4FA234F122E /* Plate.swift in Sources */,
+				0AD8721845C7D654775E80E1801743D9 /* PlateInformation.swift in Sources */,
+				D99E3221654AC4FBBE617674C16B8B51 /* Requester.swift in Sources */,
+				956CC6513EFD74C7F26D67A0ECA7E290 /* sinesp-dummy.m in Sources */,
+				AEE2F902DD39AD1F6E664B7A78DFA49F /* SinespClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,67 +517,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC896F9CF5D5F17A15593DDC90E860C3 /* Sources */ = {
+		A1EAE2BEF79D977B3843811E59BA2AFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA3032321FF2E5EB1958E59B8ADD2DC3 /* Pods-sinesp_Tests-dummy.m in Sources */,
+				438D67D809EBC2AC950710622C6D48E5 /* AEXML-dummy.m in Sources */,
+				B346A3F08D9632971D52237D73325D9D /* AEXML.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3CBF3954E7A2196AD5109CC1DDCD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37265CE1900C8B03813F0F542CC9C98E /* Pods-sinesp_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		50035C3524F8EC542FC4F21B6962CFB7 /* PBXTargetDependency */ = {
+		0A579244A6A4351A7DCFE49BEF54F4DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AEXML;
+			target = 6B9813D7E7E5E2BAC2903B82EC58E643 /* AEXML */;
+			targetProxy = C04888FA6551A10797FB94544A8D185E /* PBXContainerItemProxy */;
+		};
+		274C12DD8E47D6454F821F69A746D434 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Arcane;
 			target = 72B981E675407CE821008982DE311545 /* Arcane */;
-			targetProxy = 3308243013AE5C846CE3BC34B81A6DEE /* PBXContainerItemProxy */;
+			targetProxy = B419F0CCDC53DD212E44901CEDDA8BAE /* PBXContainerItemProxy */;
 		};
-		9BC683F30171750DF87780073B2803A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Arcane;
-			target = 72B981E675407CE821008982DE311545 /* Arcane */;
-			targetProxy = EAFB29F5A3E442B31211904129977279 /* PBXContainerItemProxy */;
-		};
-		A120353A3FE277FD467EA56443A47909 /* PBXTargetDependency */ = {
+		4431C096F39C861B29725983F424B46D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = sinesp;
-			target = A8EF15B7C004D6AEE7A5582952B08940 /* sinesp */;
-			targetProxy = 405969B20CD7FD49FC5C1062CD3C0199 /* PBXContainerItemProxy */;
+			target = B5027A7302A1BB1293A6596355BA9033 /* sinesp */;
+			targetProxy = 84226747669426B81B100DD0980937C8 /* PBXContainerItemProxy */;
+		};
+		9B11E4ED02449E1BE59639EFF88248FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AEXML;
+			target = 6B9813D7E7E5E2BAC2903B82EC58E643 /* AEXML */;
+			targetProxy = E0389CC2F1852C820D0CB0D70C79928C /* PBXContainerItemProxy */;
+		};
+		B8DA932CE17E2447970F2E42DC3515DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Arcane;
+			target = 72B981E675407CE821008982DE311545 /* Arcane */;
+			targetProxy = 860DC76ADFAD5B6AA7462888F86EDF13 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00AB0A0DF22CF8B9D9DEEA97FB6A4625 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BA412F4F6D5DDBB7CAFD43DF022108F /* sinesp.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/sinesp/sinesp-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/sinesp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/sinesp/sinesp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = sinesp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -525,9 +608,72 @@
 			};
 			name = Release;
 		};
+		25AB233B35E25DC82007FC99D6A41CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03674229001DF21B0D4B288BED86E7D6 /* Pods-sinesp_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-sinesp_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sinesp_Tests/Pods-sinesp_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_sinesp_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42C634B2B6263B3747E86AD07F3DD05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C24026B86048DE6103FDDEC0385319 /* AEXML.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEXML/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AEXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		480C7953049D7C2152DD7AD126E27F8E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8634B63E4B8B6335E66553CE6A7358D /* Arcane.xcconfig */;
+			baseConfigurationReference = 9C3A6F403A232DEB6C48F02EF12CC87E /* Arcane.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -554,37 +700,7 @@
 			};
 			name = Release;
 		};
-		7413C141805A4C92FC88064C61EBA67B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8634B63E4B8B6335E66553CE6A7358D /* Arcane.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Arcane/Arcane-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Arcane/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Arcane/Arcane.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Arcane;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		907E8EB7EBE1CD1CAA0842DC695BBB98 /* Release */ = {
+		5DBB01F57C2A4F27418A919744ECECAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A667FE953A757C765B04ACC821D4239 /* Pods-sinesp_Tests.release.xcconfig */;
 			buildSettings = {
@@ -617,7 +733,37 @@
 			};
 			name = Release;
 		};
-		93CAB1F24D227D066103DDD20A606A8F /* Debug */ = {
+		7413C141805A4C92FC88064C61EBA67B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3A6F403A232DEB6C48F02EF12CC87E /* Arcane.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Arcane/Arcane-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Arcane/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Arcane/Arcane.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Arcane;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A38EF83C7B074875A0C2FE01768DF655 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4BA412F4F6D5DDBB7CAFD43DF022108F /* sinesp.xcconfig */;
 			buildSettings = {
@@ -647,9 +793,38 @@
 			};
 			name = Debug;
 		};
-		A94DE7EAE50876A8D101DD18A4C0BAF6 /* Debug */ = {
+		AC4176404668A3A954B07DD8D6729F2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03674229001DF21B0D4B288BED86E7D6 /* Pods-sinesp_Tests.debug.xcconfig */;
+			baseConfigurationReference = 4BA412F4F6D5DDBB7CAFD43DF022108F /* sinesp.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/sinesp/sinesp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/sinesp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/sinesp/sinesp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = sinesp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0084123ADBF749C21CB8A096FE25109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C24026B86048DE6103FDDEC0385319 /* AEXML.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -660,18 +835,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-sinesp_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEXML/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sinesp_Tests/Pods-sinesp_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_sinesp_Tests;
+				PRODUCT_NAME = AEXML;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -726,6 +897,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		12B0C110CE779983D39B047820061761 /* Build configuration list for PBXNativeTarget "sinesp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38EF83C7B074875A0C2FE01768DF655 /* Debug */,
+				AC4176404668A3A954B07DD8D6729F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -735,20 +915,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AA19A5A24E09D13062D219911C1E002 /* Build configuration list for PBXNativeTarget "sinesp" */ = {
+		84EDB50B6A927E56EB448690EB6A119B /* Build configuration list for PBXNativeTarget "Pods-sinesp_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93CAB1F24D227D066103DDD20A606A8F /* Debug */,
-				00AB0A0DF22CF8B9D9DEEA97FB6A4625 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7289F836F10825579003DCC4140578F8 /* Build configuration list for PBXNativeTarget "Pods-sinesp_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A94DE7EAE50876A8D101DD18A4C0BAF6 /* Debug */,
-				907E8EB7EBE1CD1CAA0842DC695BBB98 /* Release */,
+				25AB233B35E25DC82007FC99D6A41CB4 /* Debug */,
+				5DBB01F57C2A4F27418A919744ECECAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -758,6 +929,15 @@
 			buildConfigurations = (
 				7413C141805A4C92FC88064C61EBA67B /* Debug */,
 				480C7953049D7C2152DD7AD126E27F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB99F68354F647FD7968E39CE9540528 /* Build configuration list for PBXNativeTarget "AEXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0084123ADBF749C21CB8A096FE25109 /* Debug */,
+				42C634B2B6263B3747E86AD07F3DD05A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
