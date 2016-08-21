@@ -19,8 +19,10 @@
 		8B015D62CC9416783B11D3DE7B5A3E5C /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B133ADCC643BB63B62F4C62A35276F /* Obfuscator.swift */; };
 		A3F4870C1D6943FE006485A2 /* Plate+Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F4870A1D6943DD006485A2 /* Plate+Token.swift */; };
 		A3F4870F1D6946F4006485A2 /* PlateInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F4870D1D694683006485A2 /* PlateInformation.swift */; };
-		A3F487111D694735006485A2 /* CLLocation+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F487101D694735006485A2 /* CLLocation+Random.swift */; };
-		A3F487131D6951C7006485A2 /* NSDateFormatter+SINESP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F487121D6951C7006485A2 /* NSDateFormatter+SINESP.swift */; };
+		A3F487161D6953A4006485A2 /* NSDateFormatter+SINESP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F487121D6951C7006485A2 /* NSDateFormatter+SINESP.swift */; };
+		A3F487171D6953A7006485A2 /* CLLocation+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F487101D694735006485A2 /* CLLocation+Random.swift */; };
+		A3F487181D6953AE006485A2 /* SinespClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F487141D695365006485A2 /* SinespClient.swift */; };
+		A3F4871A1D69550B006485A2 /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F487191D69550B006485A2 /* Requester.swift */; };
 		AE715A89A98639A9FCB2983F119117CA /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C13FB54060A6A26537B57B63F4098 /* Crypto.swift */; };
 		B3E922103DB40EEB50429FD9052E8B09 /* Plate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90981F6D7D2813D0D410E67C066F7C39 /* Plate.swift */; };
 		B7ADC748878EA9874E6FEDBF817BDB86 /* Arcane-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED41D565868332B83C9D4C37091FA1A7 /* Arcane-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -79,6 +81,8 @@
 		A3F4870D1D694683006485A2 /* PlateInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlateInformation.swift; sourceTree = "<group>"; };
 		A3F487101D694735006485A2 /* CLLocation+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Random.swift"; sourceTree = "<group>"; };
 		A3F487121D6951C7006485A2 /* NSDateFormatter+SINESP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDateFormatter+SINESP.swift"; sourceTree = "<group>"; };
+		A3F487141D695365006485A2 /* SinespClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinespClient.swift; sourceTree = "<group>"; };
+		A3F487191D69550B006485A2 /* Requester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
 		A52EC23CA91B7221AEB08B8F984F3E37 /* sinesp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sinesp-dummy.m"; sourceTree = "<group>"; };
 		A736B331EFFB591C6052A1E2723C9382 /* Arcane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arcane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38C13FB54060A6A26537B57B63F4098 /* Crypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Crypto.swift; path = Sources/Crypto.swift; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 				A3F4870D1D694683006485A2 /* PlateInformation.swift */,
 				A3F487101D694735006485A2 /* CLLocation+Random.swift */,
 				A3F487121D6951C7006485A2 /* NSDateFormatter+SINESP.swift */,
+				A3F487191D69550B006485A2 /* Requester.swift */,
+				A3F487141D695365006485A2 /* SinespClient.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -395,9 +401,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F487171D6953A7006485A2 /* CLLocation+Random.swift in Sources */,
 				B3E922103DB40EEB50429FD9052E8B09 /* Plate.swift in Sources */,
+				A3F4871A1D69550B006485A2 /* Requester.swift in Sources */,
 				A3F4870F1D6946F4006485A2 /* PlateInformation.swift in Sources */,
 				A3F4870C1D6943FE006485A2 /* Plate+Token.swift in Sources */,
+				A3F487181D6953AE006485A2 /* SinespClient.swift in Sources */,
+				A3F487161D6953A4006485A2 /* NSDateFormatter+SINESP.swift in Sources */,
 				0F72FB4ECC815976CDEA39AE27BABD40 /* sinesp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,8 +422,6 @@
 				3BC2C552C104B9C1D2BCB89F9EDA0DF2 /* Hash.swift in Sources */,
 				DAB9BF8939E80908E7C039AA6FAC952E /* HMAC.swift in Sources */,
 				F4625C6E5B8659EF927809DA2A0CA642 /* NSData+Extensions.swift in Sources */,
-				A3F487111D694735006485A2 /* CLLocation+Random.swift in Sources */,
-				A3F487131D6951C7006485A2 /* NSDateFormatter+SINESP.swift in Sources */,
 				8B015D62CC9416783B11D3DE7B5A3E5C /* Obfuscator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
