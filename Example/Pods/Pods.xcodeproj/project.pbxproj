@@ -26,6 +26,7 @@
 		8C3290373BE73ABF2EAF2E4722EF0A93 /* sinesp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F41EE6DC17E45C82F60CCBC50ACC6E14 /* sinesp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8ED0C920B7C66CA0EA418B137361B1FC /* Regex_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B90F2197FC2C5768A3D6C78171B7AB /* Regex_swift.framework */; };
 		920FD4766AC23619590913DA3B928F7E /* NSDateFormatter+SINESP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42721A63EF66F20DE16278B02CF7FB6B /* NSDateFormatter+SINESP.swift */; };
+		A3E8F65C1D6A563D00FB3FCF /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E8F65A1D6A548000FB3FCF /* State.swift */; };
 		AB8121E653D74DA8E5E56588433C1861 /* SinespClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD90DC33F0109CC1BCC8AE9D95CB2E0 /* SinespClient.swift */; };
 		AE715A89A98639A9FCB2983F119117CA /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19F9625481B8A54360913DB72A31548 /* Crypto.swift */; };
 		AECCB3B927D364AD31A1A1D899CB6780 /* Regex.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAA6B1548B766A3C04ADDFBB4BA5061 /* Regex.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -135,6 +136,7 @@
 		9C7341FD86539AFB46A60D58DE1C312D /* NSData+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSData+Extensions.swift"; path = "Sources/NSData+Extensions.swift"; sourceTree = "<group>"; };
 		9DA5366445C38B6DCA3C0F4DFB2FC53E /* PlateInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlateInformation.swift; sourceTree = "<group>"; };
 		9FAA6B1548B766A3C04ADDFBB4BA5061 /* Regex.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Regex.swift-umbrella.h"; sourceTree = "<group>"; };
+		A3E8F65A1D6A548000FB3FCF /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		A52EC23CA91B7221AEB08B8F984F3E37 /* sinesp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sinesp-dummy.m"; sourceTree = "<group>"; };
 		AEF18974B19600D8A693B6D1E31357E1 /* AEXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEXML.xcconfig; sourceTree = "<group>"; };
 		AFC76A9ADD4E8F5DA6E8AD6A7BE7E2C0 /* Requester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
@@ -272,6 +274,7 @@
 				CD846E0E2C1676AE5F85E138B9C6CF44 /* PlateInformation+AEXMLElement.swift */,
 				AFC76A9ADD4E8F5DA6E8AD6A7BE7E2C0 /* Requester.swift */,
 				0BD90DC33F0109CC1BCC8AE9D95CB2E0 /* SinespClient.swift */,
+				A3E8F65A1D6A548000FB3FCF /* State.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -589,6 +592,7 @@
 				297262436C839D887F6637EC27E153C3 /* CLLocation+Random.swift in Sources */,
 				920FD4766AC23619590913DA3B928F7E /* NSDateFormatter+SINESP.swift in Sources */,
 				FE334D92454F1AE4273B9E0FABB34E0B /* Plate+Token.swift in Sources */,
+				A3E8F65C1D6A563D00FB3FCF /* State.swift in Sources */,
 				BD5DEF982C1F0063D755DA5EB199E034 /* Plate.swift in Sources */,
 				E6103BECECEF0A19F0315A49843BCB95 /* PlateInformation+AEXMLElement.swift in Sources */,
 				DBE31357F54B57E9E1D9BB2D41CEA436 /* PlateInformation.swift in Sources */,
