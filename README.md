@@ -38,8 +38,9 @@ O Sinesp Cidadão é um módulo do Sistema Nacional de Informações de Seguran�
 I do not take any responsibility for how you use this API/any of its information.
 
 ## Known limitations
-- The API does not respond to API addresses outside Brazil
+- The API does not respond to API addresses outside Brazil.
 - The API stops responding when [too many requests are made](https://github.com/victor-torres/sinesp-client/issues/6).
+- No support for missing people and arrest warrants.
 
 ## Credits
 - Based on [victor-torres](https://github.com/victor-torres)'s Python [sinesp-client](https://github.com/victor-torres/sinesp-client)
