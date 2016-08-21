@@ -1,4 +1,4 @@
-struct PlateInformation {
+public struct PlateInformation {
     let returnCode: Int
     let returnMessage: String
     let statusCode: String
