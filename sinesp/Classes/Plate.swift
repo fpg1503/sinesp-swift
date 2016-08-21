@@ -24,8 +24,8 @@ public struct Plate {
         self.plate = lettersString + numbersString
     }
 
-    let letters: [Character]
-    let numbers: [Int]
+    public let letters: [Character]
+    public let numbers: [Int]
 
-    let plate: String
+    public let plate: String
 }

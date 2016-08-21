@@ -1,16 +1,16 @@
 public struct PlateInformation {
-    let returnCode: Int
-    let returnMessage: String
-    let statusCode: Int
-    let statusMessage: String
-    let chassis: String
-    let model: String
-    let brand: String
-    let color: String
-    let year: Int
-    let modelYear: Int
-    let plate: Plate
-    let date: NSDate
-    let city: String
-    let state: String
+    public let returnCode: Int
+    public let returnMessage: String
+    public let statusCode: Int
+    public let statusMessage: String
+    public let chassis: String
+    public let model: String
+    public let brand: String
+    public let color: String
+    public let year: Int
+    public let modelYear: Int
+    public let plate: Plate
+    public let date: NSDate
+    public let city: String
+    public let state: String
 }
