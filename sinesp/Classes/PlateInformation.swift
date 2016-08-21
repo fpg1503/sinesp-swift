@@ -1,8 +1,8 @@
 struct PlateInformation {
-    let returnCode: String
+    let returnCode: Int
     let returnMessage: String
     let statusCode: String
-    let statusMessage: String
+    let statusMessage: Int
     let chassis: String
     let model: String
     let brand: String
