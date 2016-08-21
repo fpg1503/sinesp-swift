@@ -26,10 +26,10 @@ private extension NSTextCheckingResult {
 }
 
 public struct Match {
-    let matchedString: String
-    let captureGroups: [String]
+    public let matchedString: String
+    public let captureGroups: [String]
     
-    init(baseString string: String, checkingResult: NSTextCheckingResult) {
+    public init(baseString string: String, checkingResult: NSTextCheckingResult) {
         matchedString = string.substringWithRange(checkingResult.range)
         captureGroups = checkingResult.ranges.dropFirst().map {
             string.substringWithRange($0)
@@ -38,12 +38,12 @@ public struct Match {
 }
 
 public struct Regex {
-    let pattern: String
-    let options: NSRegularExpressionOptions
+    public let pattern: String
+    public let options: NSRegularExpressionOptions
     
     private let matcher: NSRegularExpression
     
-    init?(pattern: String, options: NSRegularExpressionOptions = []) {
+    public init?(pattern: String, options: NSRegularExpressionOptions = []) {
         guard let matcher = try? NSRegularExpression(pattern: pattern, options: options) else {
             return nil
         }
@@ -53,13 +53,13 @@ public struct Regex {
         self.options = options
     }
     
-    func match(string: String, options: NSMatchingOptions = [], range: NSRange? = .None) -> Bool {
+    public func match(string: String, options: NSMatchingOptions = [], range: NSRange? = .None) -> Bool {
         let range = range ?? string.wholeRange
         
         return matcher.numberOfMatchesInString(string, options: options, range: range) != 0
     }
     
-    func matches(string: String, options: NSMatchingOptions = [], range: NSRange? = .None) -> [Match] {
+    public func matches(string: String, options: NSMatchingOptions = [], range: NSRange? = .None) -> [Match] {
         let range = range ?? string.wholeRange
         
         return matcher.matchesInString(string, options: options, range: range).map { Match(baseString: string, checkingResult: $0)

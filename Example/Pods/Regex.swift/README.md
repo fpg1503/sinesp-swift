@@ -1,6 +1,6 @@
 # Regex.swift
 
-[![CI Status](http://img.shields.io/travis/Francesco Perrotti-Garcia/Regex.swift.svg?style=flat)](https://travis-ci.org/Francesco Perrotti-Garcia/Regex.swift)
+[![CI Status](http://img.shields.io/travis/fpg1503/Regex.swift.svg?style=flat)](https://travis-ci.org/fpg1503/Regex.swift)
 [![Version](https://img.shields.io/cocoapods/v/Regex.swift.svg?style=flat)](http://cocoapods.org/pods/Regex.swift)
 [![License](https://img.shields.io/cocoapods/l/Regex.swift.svg?style=flat)](http://cocoapods.org/pods/Regex.swift)
 [![Platform](https://img.shields.io/cocoapods/p/Regex.swift.svg?style=flat)](http://cocoapods.org/pods/Regex.swift)
