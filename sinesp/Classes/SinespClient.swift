@@ -24,7 +24,7 @@ public struct SinespClient {
         let headers = ["Content-Type": "text/xml; charset=utf-8",
                        "Accept-Encoding": "gzip, deflate",
                        "Host": "sinespcidadao.sinesp.gov.br",
-                       "Content-Length": "634",
+                       "User-Agent": "SinespCidadao/4.0.7 CFNetwork/808 Darwin/16.0.0",
                        "Accept": "*/*"]
 
         let latitude  = String(format: "%0.7f", location.coordinate.latitude)
