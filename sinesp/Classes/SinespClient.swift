@@ -60,10 +60,10 @@ public struct SinespClient {
                 return
             }
 
-            let values = xmlResponse.root["soap:Body"]["ns2:getStatusResponse"]["return"].children
+            let element = xmlResponse.root["soap:Body"]["ns2:getStatusResponse"]["return"]
+            let plateInformation = PlateInformation(element: element)
 
-            print(values)
-            completion(nil)
+            completion(plateInformation)
         }
     }
 }

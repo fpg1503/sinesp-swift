@@ -16,11 +16,15 @@ class Tests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
+        let expectation = expectationWithDescription("Request")
+
         if let plate = Plate(plate: "ABC1234") {
             SinespClient().information(for: plate) { (info) in
                 print(info)
+                expectation.fulfill()
             }
         }
+        waitForExpectationsWithTimeout(30, handler: nil)
         XCTAssert(true, "Pass")
     }
     
