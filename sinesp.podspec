@@ -41,5 +41,6 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Arcane'
   s.dependency 'AEXML'
+  s.dependency 'Regex.swift'
 
 end
