@@ -12,5 +12,5 @@ public struct PlateInformation {
     public let plate: Plate
     public let date: NSDate
     public let city: String
-    public let state: String
+    public let state: State
 }

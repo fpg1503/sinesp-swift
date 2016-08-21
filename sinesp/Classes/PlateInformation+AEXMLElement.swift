@@ -40,7 +40,7 @@ extension PlateInformation: AEXMLElementDecodable {
                   _plateValue         = values["placa"]           ?? nil,
                   _dateValue          = values["data"]            ?? nil,
                   _city               = values["municipio"]       ?? nil,
-                  _state              = values["uf"]              ?? nil else { return nil }
+                  _stateValue         = values["uf"]              ?? nil else { return nil }
 
         let formatter = NSDateFormatter.sinespResponseDateFormatter()
 
@@ -49,7 +49,8 @@ extension PlateInformation: AEXMLElementDecodable {
                   _year               = Int(_yearValue),
                   _modelYear          = Int(_modelYearValue),
                   _plate              = Plate(plate: _plateValue),
-                  _date               = formatter.dateFromString(_dateValue) else { return nil }
+                  _date               = formatter.dateFromString(_dateValue),
+                  _state              = State(rawValue: _stateValue) else { return nil }
 
         returnCode                    = _returnCode
         returnMessage                 = _returnMessage
