@@ -1,5 +1,7 @@
 PODS:
-  - sinesp (0.1.0)
+  - Arcane (0.2.0)
+  - sinesp (0.1.0):
+    - Arcane
 
 DEPENDENCIES:
   - sinesp (from `../`)
@@ -9,6 +11,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  sinesp: 326af72f94f00d92a106d85500b3bf1ebde418a6
+  Arcane: 9cf005ab1ef56af2b8f1644f7399241753cdac13
+  sinesp: d30a02b12c96bcd7984a4673bb0228f18dcb7764
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 680e0ffcf7c2005c4ffd7024835bab10ac1a32e2
+
+COCOAPODS: 1.0.1

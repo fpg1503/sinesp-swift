@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "sinesp/Classes/**/*"
+  "source_files": "sinesp/Classes/**/*",
+  "dependencies": {
+    "Arcane": [
+
+    ]
+  }
 }

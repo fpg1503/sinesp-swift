@@ -7,63 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42283EC10CB3714DE253E2FB92497B1A /* Pods-sinesp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B55F961AA84B4178D065EAE5A45EFF /* Pods-sinesp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63F90CCB14BC8F602B906D06F44C6471 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90981F6D7D2813D0D410E67C066F7C39 /* ReplaceMe.swift */; };
-		791D552EB5D51BA7CEBA41B41A6098B3 /* sinesp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A52EC23CA91B7221AEB08B8F984F3E37 /* sinesp-dummy.m */; };
-		8D4F472E72F1A250CB66C3A846F26358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		9A843C976DE3362587A0EC455EB9B896 /* sinesp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F41EE6DC17E45C82F60CCBC50ACC6E14 /* sinesp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B36F813CA5859424A74CC42F792E31F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		CE177E40689B45CD486D6CF8BA3B23AB /* Pods-sinesp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F81806345D48E7B90AD09652914E1 /* Pods-sinesp_Tests-dummy.m */; };
+		0F72FB4ECC815976CDEA39AE27BABD40 /* sinesp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A52EC23CA91B7221AEB08B8F984F3E37 /* sinesp-dummy.m */; };
+		127A1311A426B50EF1A0C4C4893D2286 /* Arcane-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5696430CCD1917E1AA7C06626B1A5C /* Arcane-dummy.m */; };
+		19A1501D60209CD6DB6CA5D681B22F92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18495C98F368233CE567889FD9F4DCAB /* Foundation.framework */; };
+		3BC2C552C104B9C1D2BCB89F9EDA0DF2 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E811FB7622965FD72D0CD91671BFCA /* Hash.swift */; };
+		4041DA3867B12687A5A7B8D8DE438754 /* Arcane.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A736B331EFFB591C6052A1E2723C9382 /* Arcane.framework */; };
+		6550E4A13BC10BC8FB0058A91DB94A22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18495C98F368233CE567889FD9F4DCAB /* Foundation.framework */; };
+		81B98CAE8D93D6C450D36670E04F133D /* sinesp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F41EE6DC17E45C82F60CCBC50ACC6E14 /* sinesp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84281E9A9F7E4E3740A386C209C73226 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5DA3C225E33222BAB309B8600A33B /* AES.swift */; };
+		864F8964A6B09947EAE0C53592203636 /* Pods-sinesp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B55F961AA84B4178D065EAE5A45EFF /* Pods-sinesp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B015D62CC9416783B11D3DE7B5A3E5C /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B133ADCC643BB63B62F4C62A35276F /* Obfuscator.swift */; };
+		AE715A89A98639A9FCB2983F119117CA /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C13FB54060A6A26537B57B63F4098 /* Crypto.swift */; };
+		B3E922103DB40EEB50429FD9052E8B09 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90981F6D7D2813D0D410E67C066F7C39 /* ReplaceMe.swift */; };
+		B7ADC748878EA9874E6FEDBF817BDB86 /* Arcane-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED41D565868332B83C9D4C37091FA1A7 /* Arcane-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA3032321FF2E5EB1958E59B8ADD2DC3 /* Pods-sinesp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F81806345D48E7B90AD09652914E1 /* Pods-sinesp_Tests-dummy.m */; };
+		DAB9BF8939E80908E7C039AA6FAC952E /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EC0C21EDF743274BCA370FD9A40A3 /* HMAC.swift */; };
+		DE89FB671B15A39ED08A9F99E0FCA29F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18495C98F368233CE567889FD9F4DCAB /* Foundation.framework */; };
+		F4625C6E5B8659EF927809DA2A0CA642 /* NSData+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A95972A42587AD2A017B29EB8685A10 /* NSData+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		52242268AD7633EFBA021A311210B348 /* PBXContainerItemProxy */ = {
+		3308243013AE5C846CE3BC34B81A6DEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3DE20B9851380A73FB7C1D8E559AED45;
+			remoteGlobalIDString = 72B981E675407CE821008982DE311545;
+			remoteInfo = Arcane;
+		};
+		405969B20CD7FD49FC5C1062CD3C0199 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8EF15B7C004D6AEE7A5582952B08940;
 			remoteInfo = sinesp;
+		};
+		EAFB29F5A3E442B31211904129977279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72B981E675407CE821008982DE311545;
+			remoteInfo = Arcane;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03674229001DF21B0D4B288BED86E7D6 /* Pods-sinesp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sinesp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		076EC0C21EDF743274BCA370FD9A40A3 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/HMAC.swift; sourceTree = "<group>"; };
+		0A95972A42587AD2A017B29EB8685A10 /* NSData+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSData+Extensions.swift"; path = "Sources/NSData+Extensions.swift"; sourceTree = "<group>"; };
 		0DAF4FE80920613FF9C7F3708B364E37 /* Pods-sinesp_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sinesp_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		10B55F961AA84B4178D065EAE5A45EFF /* Pods-sinesp_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sinesp_Tests-umbrella.h"; sourceTree = "<group>"; };
-		146D5212285FBE7D29EB883535F93376 /* Pods_sinesp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sinesp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		18495C98F368233CE567889FD9F4DCAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2448B1E165749301D08D43888E39ED7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F5DA3C225E33222BAB309B8600A33B /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/AES.swift; sourceTree = "<group>"; };
 		4BA412F4F6D5DDBB7CAFD43DF022108F /* sinesp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sinesp.xcconfig; sourceTree = "<group>"; };
+		4EAE05C80A880D1BE84FC597D8D6CAC7 /* Arcane-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arcane-prefix.pch"; sourceTree = "<group>"; };
+		4F5696430CCD1917E1AA7C06626B1A5C /* Arcane-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Arcane-dummy.m"; sourceTree = "<group>"; };
 		5189E421A4D02E571D710B3456B3E372 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E811FB7622965FD72D0CD91671BFCA /* Hash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hash.swift; path = Sources/Hash.swift; sourceTree = "<group>"; };
 		6A667FE953A757C765B04ACC821D4239 /* Pods-sinesp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sinesp_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6F373583DCFE2735B1D0F10EA4991206 /* Pods-sinesp_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sinesp_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7A5F81806345D48E7B90AD09652914E1 /* Pods-sinesp_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sinesp_Tests-dummy.m"; sourceTree = "<group>"; };
 		7BEA353B2C4430EF99798A1CCCB84378 /* sinesp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = sinesp.modulemap; sourceTree = "<group>"; };
 		90981F6D7D2813D0D410E67C066F7C39 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		988EA04B5D693E05F38F417DB3EA38CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52EC23CA91B7221AEB08B8F984F3E37 /* sinesp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sinesp-dummy.m"; sourceTree = "<group>"; };
-		B0A67C38D782C7C0D47F1A1C5588113E /* sinesp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sinesp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A736B331EFFB591C6052A1E2723C9382 /* Arcane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arcane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38C13FB54060A6A26537B57B63F4098 /* Crypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Crypto.swift; path = Sources/Crypto.swift; sourceTree = "<group>"; };
 		BA8F3201060E42E2326D6ADB089FF1CC /* Pods-sinesp_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sinesp_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7B133ADCC643BB63B62F4C62A35276F /* Obfuscator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Obfuscator.swift; path = Sources/Obfuscator.swift; sourceTree = "<group>"; };
 		CC5EF984AD22B9F10FAEB9E5D55B0419 /* sinesp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sinesp-prefix.pch"; sourceTree = "<group>"; };
+		CECCD7B9DF88FD4B75F94501A1A28984 /* Pods_sinesp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sinesp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20636ADB90C0ED9719928F3A610FE32 /* Pods-sinesp_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sinesp_Tests-resources.sh"; sourceTree = "<group>"; };
+		D8137A5F130C8CC890AE6B98AE05C2B7 /* Arcane.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Arcane.modulemap; sourceTree = "<group>"; };
+		D8634B63E4B8B6335E66553CE6A7358D /* Arcane.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arcane.xcconfig; sourceTree = "<group>"; };
+		E84F13BD596CE5888B9350864E4EEB7F /* Arcane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arcane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED41D565868332B83C9D4C37091FA1A7 /* Arcane-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arcane-umbrella.h"; sourceTree = "<group>"; };
 		F41EE6DC17E45C82F60CCBC50ACC6E14 /* sinesp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sinesp-umbrella.h"; sourceTree = "<group>"; };
 		F8D6EE6077848B7A0DD78B1CC03C3AFC /* Pods-sinesp_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-sinesp_Tests.modulemap"; sourceTree = "<group>"; };
+		FEC7384C1B562BFB54ECEFC27CB79C71 /* sinesp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sinesp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4CC1E83AE5D4A73C76C6309C300CB7B7 /* Frameworks */ = {
+		39855B263A4414DD566CAFF4A4ED75DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B36F813CA5859424A74CC42F792E31F8 /* Foundation.framework in Frameworks */,
+				19A1501D60209CD6DB6CA5D681B22F92 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82FCBECE36DDB37F55CDDDE6AC413060 /* Frameworks */ = {
+		775F9D0AE906518750D1E3599A313910 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4F472E72F1A250CB66C3A846F26358 /* Foundation.framework in Frameworks */,
+				DE89FB671B15A39ED08A9F99E0FCA29F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BBC83C070F48B35F37FF60BB32314E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4041DA3867B12687A5A7B8D8DE438754 /* Arcane.framework in Frameworks */,
+				6550E4A13BC10BC8FB0058A91DB94A22 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +125,42 @@
 			path = sinesp;
 			sourceTree = "<group>";
 		};
+		0AB8739D6E0055FBFC30340AAAA7D408 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8137A5F130C8CC890AE6B98AE05C2B7 /* Arcane.modulemap */,
+				D8634B63E4B8B6335E66553CE6A7358D /* Arcane.xcconfig */,
+				4F5696430CCD1917E1AA7C06626B1A5C /* Arcane-dummy.m */,
+				4EAE05C80A880D1BE84FC597D8D6CAC7 /* Arcane-prefix.pch */,
+				ED41D565868332B83C9D4C37091FA1A7 /* Arcane-umbrella.h */,
+				2448B1E165749301D08D43888E39ED7E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Arcane";
+			sourceTree = "<group>";
+		};
+		18A0F0289041AA232F783A2EFD39FAAC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				18495C98F368233CE567889FD9F4DCAB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		18E9D3E99ECBDC32EE1FB6ECE70AA50D /* Arcane */ = {
+			isa = PBXGroup;
+			children = (
+				40F5DA3C225E33222BAB309B8600A33B /* AES.swift */,
+				B38C13FB54060A6A26537B57B63F4098 /* Crypto.swift */,
+				62E811FB7622965FD72D0CD91671BFCA /* Hash.swift */,
+				076EC0C21EDF743274BCA370FD9A40A3 /* HMAC.swift */,
+				0A95972A42587AD2A017B29EB8685A10 /* NSData+Extensions.swift */,
+				C7B133ADCC643BB63B62F4C62A35276F /* Obfuscator.swift */,
+				0AB8739D6E0055FBFC30340AAAA7D408 /* Support Files */,
+			);
+			path = Arcane;
+			sourceTree = "<group>";
+		};
 		1A078E40D599A42FB7D5670968144169 /* sinesp */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,15 +169,6 @@
 			);
 			name = sinesp;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		40885D11B51121345BB0F37C0C36C4BB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				146D5212285FBE7D29EB883535F93376 /* Pods_sinesp_Tests.framework */,
-				B0A67C38D782C7C0D47F1A1C5588113E /* sinesp.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		41D9677EDD8D56C69FA21DAD8182AB05 /* Targets Support Files */ = {
@@ -113,13 +187,24 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		565DEB38685E9825283D2097969DFE93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E84F13BD596CE5888B9350864E4EEB7F /* Arcane.framework */,
+				CECCD7B9DF88FD4B75F94501A1A28984 /* Pods_sinesp_Tests.framework */,
+				FEC7384C1B562BFB54ECEFC27CB79C71 /* sinesp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				F6789880AB9662D5A4E6ABAB603AA321 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				40885D11B51121345BB0F37C0C36C4BB /* Products */,
+				E83135AEED0FE5CCDCCC640E24D8A263 /* Frameworks */,
+				8B96ACAEBCF40B7BF613C20DCAED1185 /* Pods */,
+				565DEB38685E9825283D2097969DFE93 /* Products */,
 				41D9677EDD8D56C69FA21DAD8182AB05 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -142,20 +227,21 @@
 			path = "Target Support Files/Pods-sinesp_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		8B96ACAEBCF40B7BF613C20DCAED1185 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				18E9D3E99ECBDC32EE1FB6ECE70AA50D /* Arcane */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+		E83135AEED0FE5CCDCCC640E24D8A263 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+				A736B331EFFB591C6052A1E2723C9382 /* Arcane.framework */,
+				18A0F0289041AA232F783A2EFD39FAAC /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E8F15C9D05D0DDBB50C243FEBFA4C5ED /* Support Files */ = {
@@ -183,58 +269,85 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5DEED23D118B05576B021E418A139DAE /* Headers */ = {
+		14D36A1B3A7CF5866778858F074D5B36 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42283EC10CB3714DE253E2FB92497B1A /* Pods-sinesp_Tests-umbrella.h in Headers */,
+				864F8964A6B09947EAE0C53592203636 /* Pods-sinesp_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FDA0605CCC746008401CE960C61193F /* Headers */ = {
+		44FE04F84C9641FA65CB82107644A229 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A843C976DE3362587A0EC455EB9B896 /* sinesp-umbrella.h in Headers */,
+				B7ADC748878EA9874E6FEDBF817BDB86 /* Arcane-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55C22D551D96E4976FA15829D2CFCA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B98CAE8D93D6C450D36670E04F133D /* sinesp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3DE20B9851380A73FB7C1D8E559AED45 /* sinesp */ = {
+		72B981E675407CE821008982DE311545 /* Arcane */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE0898C9AA987246F1CAC1860291B94A /* Build configuration list for PBXNativeTarget "sinesp" */;
+			buildConfigurationList = C775D8BA786F306E0D5263DF234850FB /* Build configuration list for PBXNativeTarget "Arcane" */;
 			buildPhases = (
-				4B4A2A9A155449798F5ED9713DDAB87B /* Sources */,
-				4CC1E83AE5D4A73C76C6309C300CB7B7 /* Frameworks */,
-				8FDA0605CCC746008401CE960C61193F /* Headers */,
+				9A1E1E06FC9413152FFBE346CFE4181B /* Sources */,
+				39855B263A4414DD566CAFF4A4ED75DB /* Frameworks */,
+				44FE04F84C9641FA65CB82107644A229 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = sinesp;
-			productName = sinesp;
-			productReference = B0A67C38D782C7C0D47F1A1C5588113E /* sinesp.framework */;
+			name = Arcane;
+			productName = Arcane;
+			productReference = E84F13BD596CE5888B9350864E4EEB7F /* Arcane.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		50658C8EE0F704D13977589960D72E85 /* Pods-sinesp_Tests */ = {
+		8FFCFE2A444E4A705F6AECB875D83E3E /* Pods-sinesp_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB002F50EA2AF10E8F05722505BED3C8 /* Build configuration list for PBXNativeTarget "Pods-sinesp_Tests" */;
+			buildConfigurationList = 7289F836F10825579003DCC4140578F8 /* Build configuration list for PBXNativeTarget "Pods-sinesp_Tests" */;
 			buildPhases = (
-				1FA699AF890C5B9EAB8CA6AEE90EEA48 /* Sources */,
-				82FCBECE36DDB37F55CDDDE6AC413060 /* Frameworks */,
-				5DEED23D118B05576B021E418A139DAE /* Headers */,
+				BC896F9CF5D5F17A15593DDC90E860C3 /* Sources */,
+				775F9D0AE906518750D1E3599A313910 /* Frameworks */,
+				14D36A1B3A7CF5866778858F074D5B36 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C5FE5F48EAE0496AE38BF7D894892E80 /* PBXTargetDependency */,
+				9BC683F30171750DF87780073B2803A2 /* PBXTargetDependency */,
+				A120353A3FE277FD467EA56443A47909 /* PBXTargetDependency */,
 			);
 			name = "Pods-sinesp_Tests";
 			productName = "Pods-sinesp_Tests";
-			productReference = 146D5212285FBE7D29EB883535F93376 /* Pods_sinesp_Tests.framework */;
+			productReference = CECCD7B9DF88FD4B75F94501A1A28984 /* Pods_sinesp_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8EF15B7C004D6AEE7A5582952B08940 /* sinesp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA19A5A24E09D13062D219911C1E002 /* Build configuration list for PBXNativeTarget "sinesp" */;
+			buildPhases = (
+				31FC8DB19EDE62275F4A400BE3F5AC30 /* Sources */,
+				B1BBC83C070F48B35F37FF60BB32314E /* Frameworks */,
+				D55C22D551D96E4976FA15829D2CFCA9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50035C3524F8EC542FC4F21B6962CFB7 /* PBXTargetDependency */,
+			);
+			name = sinesp;
+			productName = sinesp;
+			productReference = FEC7384C1B562BFB54ECEFC27CB79C71 /* sinesp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -243,13 +356,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					3DE20B9851380A73FB7C1D8E559AED45 = {
-						LastSwiftMigration = 0800;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -259,50 +367,107 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 40885D11B51121345BB0F37C0C36C4BB /* Products */;
+			productRefGroup = 565DEB38685E9825283D2097969DFE93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50658C8EE0F704D13977589960D72E85 /* Pods-sinesp_Tests */,
-				3DE20B9851380A73FB7C1D8E559AED45 /* sinesp */,
+				72B981E675407CE821008982DE311545 /* Arcane */,
+				8FFCFE2A444E4A705F6AECB875D83E3E /* Pods-sinesp_Tests */,
+				A8EF15B7C004D6AEE7A5582952B08940 /* sinesp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1FA699AF890C5B9EAB8CA6AEE90EEA48 /* Sources */ = {
+		31FC8DB19EDE62275F4A400BE3F5AC30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE177E40689B45CD486D6CF8BA3B23AB /* Pods-sinesp_Tests-dummy.m in Sources */,
+				B3E922103DB40EEB50429FD9052E8B09 /* ReplaceMe.swift in Sources */,
+				0F72FB4ECC815976CDEA39AE27BABD40 /* sinesp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B4A2A9A155449798F5ED9713DDAB87B /* Sources */ = {
+		9A1E1E06FC9413152FFBE346CFE4181B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63F90CCB14BC8F602B906D06F44C6471 /* ReplaceMe.swift in Sources */,
-				791D552EB5D51BA7CEBA41B41A6098B3 /* sinesp-dummy.m in Sources */,
+				84281E9A9F7E4E3740A386C209C73226 /* AES.swift in Sources */,
+				127A1311A426B50EF1A0C4C4893D2286 /* Arcane-dummy.m in Sources */,
+				AE715A89A98639A9FCB2983F119117CA /* Crypto.swift in Sources */,
+				3BC2C552C104B9C1D2BCB89F9EDA0DF2 /* Hash.swift in Sources */,
+				DAB9BF8939E80908E7C039AA6FAC952E /* HMAC.swift in Sources */,
+				F4625C6E5B8659EF927809DA2A0CA642 /* NSData+Extensions.swift in Sources */,
+				8B015D62CC9416783B11D3DE7B5A3E5C /* Obfuscator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC896F9CF5D5F17A15593DDC90E860C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3032321FF2E5EB1958E59B8ADD2DC3 /* Pods-sinesp_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C5FE5F48EAE0496AE38BF7D894892E80 /* PBXTargetDependency */ = {
+		50035C3524F8EC542FC4F21B6962CFB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Arcane;
+			target = 72B981E675407CE821008982DE311545 /* Arcane */;
+			targetProxy = 3308243013AE5C846CE3BC34B81A6DEE /* PBXContainerItemProxy */;
+		};
+		9BC683F30171750DF87780073B2803A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Arcane;
+			target = 72B981E675407CE821008982DE311545 /* Arcane */;
+			targetProxy = EAFB29F5A3E442B31211904129977279 /* PBXContainerItemProxy */;
+		};
+		A120353A3FE277FD467EA56443A47909 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = sinesp;
-			target = 3DE20B9851380A73FB7C1D8E559AED45 /* sinesp */;
-			targetProxy = 52242268AD7633EFBA021A311210B348 /* PBXContainerItemProxy */;
+			target = A8EF15B7C004D6AEE7A5582952B08940 /* sinesp */;
+			targetProxy = 405969B20CD7FD49FC5C1062CD3C0199 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+		00AB0A0DF22CF8B9D9DEEA97FB6A4625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA412F4F6D5DDBB7CAFD43DF022108F /* sinesp.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/sinesp/sinesp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/sinesp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/sinesp/sinesp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = sinesp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -319,7 +484,10 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -333,17 +501,141 @@
 			};
 			name = Release;
 		};
-		14F716E60F48386DA6AD37DAD144713F /* Debug */ = {
+		480C7953049D7C2152DD7AD126E27F8E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03674229001DF21B0D4B288BED86E7D6 /* Pods-sinesp_Tests.debug.xcconfig */;
+			baseConfigurationReference = D8634B63E4B8B6335E66553CE6A7358D /* Arcane.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Arcane/Arcane-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Arcane/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Arcane/Arcane.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Arcane;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7413C141805A4C92FC88064C61EBA67B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8634B63E4B8B6335E66553CE6A7358D /* Arcane.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Arcane/Arcane-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Arcane/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Arcane/Arcane.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Arcane;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		907E8EB7EBE1CD1CAA0842DC695BBB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A667FE953A757C765B04ACC821D4239 /* Pods-sinesp_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-sinesp_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sinesp_Tests/Pods-sinesp_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_sinesp_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93CAB1F24D227D066103DDD20A606A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA412F4F6D5DDBB7CAFD43DF022108F /* sinesp.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/sinesp/sinesp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/sinesp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/sinesp/sinesp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = sinesp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A94DE7EAE50876A8D101DD18A4C0BAF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03674229001DF21B0D4B288BED86E7D6 /* Pods-sinesp_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-sinesp_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -354,6 +646,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_sinesp_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -364,39 +657,11 @@
 			};
 			name = Debug;
 		};
-		3DDBC0AF1542A3FDD5BED54B5754FCE3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BA412F4F6D5DDBB7CAFD43DF022108F /* sinesp.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/sinesp/sinesp-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/sinesp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/sinesp/sinesp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = sinesp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -411,10 +676,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -432,90 +699,41 @@
 			};
 			name = Debug;
 		};
-		95FCBFCB17C0856E91570471EC456B63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A667FE953A757C765B04ACC821D4239 /* Pods-sinesp_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-sinesp_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sinesp_Tests/Pods-sinesp_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_sinesp_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E2D2A4CC5BFDF3912D274152090FFD71 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BA412F4F6D5DDBB7CAFD43DF022108F /* sinesp.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/sinesp/sinesp-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/sinesp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/sinesp/sinesp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = sinesp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
-				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB002F50EA2AF10E8F05722505BED3C8 /* Build configuration list for PBXNativeTarget "Pods-sinesp_Tests" */ = {
+		4AA19A5A24E09D13062D219911C1E002 /* Build configuration list for PBXNativeTarget "sinesp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14F716E60F48386DA6AD37DAD144713F /* Debug */,
-				95FCBFCB17C0856E91570471EC456B63 /* Release */,
+				93CAB1F24D227D066103DDD20A606A8F /* Debug */,
+				00AB0A0DF22CF8B9D9DEEA97FB6A4625 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE0898C9AA987246F1CAC1860291B94A /* Build configuration list for PBXNativeTarget "sinesp" */ = {
+		7289F836F10825579003DCC4140578F8 /* Build configuration list for PBXNativeTarget "Pods-sinesp_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DDBC0AF1542A3FDD5BED54B5754FCE3 /* Debug */,
-				E2D2A4CC5BFDF3912D274152090FFD71 /* Release */,
+				A94DE7EAE50876A8D101DD18A4C0BAF6 /* Debug */,
+				907E8EB7EBE1CD1CAA0842DC695BBB98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C775D8BA786F306E0D5263DF234850FB /* Build configuration list for PBXNativeTarget "Arcane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7413C141805A4C92FC88064C61EBA67B /* Debug */,
+				480C7953049D7C2152DD7AD126E27F8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
