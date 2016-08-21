@@ -1,6 +1,8 @@
 PODS:
+  - AEXML (3.0.0)
   - Arcane (0.2.0)
   - sinesp (0.1.0):
+    - AEXML
     - Arcane
 
 DEPENDENCIES:
@@ -11,8 +13,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  AEXML: 716fb0a8decba4a3517324a71fee3685b30233d2
   Arcane: 9cf005ab1ef56af2b8f1644f7399241753cdac13
-  sinesp: d30a02b12c96bcd7984a4673bb0228f18dcb7764
+  sinesp: 57be433a7952872bef1b81225b6debcde8f3f733
 
 PODFILE CHECKSUM: 680e0ffcf7c2005c4ffd7024835bab10ac1a32e2
 

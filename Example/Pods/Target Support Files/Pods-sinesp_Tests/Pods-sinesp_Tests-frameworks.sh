@@ -84,10 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/AEXML/AEXML.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Arcane/Arcane.framework"
   install_framework "$BUILT_PRODUCTS_DIR/sinesp/sinesp.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/AEXML/AEXML.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Arcane/Arcane.framework"
   install_framework "$BUILT_PRODUCTS_DIR/sinesp/sinesp.framework"
 fi
