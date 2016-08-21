@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/sinesp.svg?style=flat)](http://cocoapods.org/pods/sinesp)
 [![Platform](https://img.shields.io/cocoapods/p/sinesp.svg?style=flat)](http://cocoapods.org/pods/sinesp)
 
+## What is it
+A SINESP API Client that allows you to get information about brazilian vehicles (using their license plate).
+
 ## Installation
 
 sinesp is available through [CocoaPods](http://cocoapods.org). To install
@@ -12,6 +15,17 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "sinesp"
+```
+
+## Usage
+
+Create a [`Plate`](https://github.com/fpg1503/sinesp-swift/blob/master/sinesp/Classes/Plate.swift) and get its [`PlateInformation`](https://github.com/fpg1503/sinesp-swift/blob/master/sinesp/Classes/PlateInformation.swift) using `SinespClient().information(for plate:)`:
+```swift
+if let plate = Plate(plate: "ABC-1234") {
+    SinespClient().information(for: plate) { (information) in
+        print(information)
+    }
+}
 ```
 
 ## About SINESP (in portuguese)

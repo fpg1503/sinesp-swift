@@ -18,7 +18,7 @@ class Tests: XCTestCase {
         // This is an example of a functional test case.
         let expectation = expectationWithDescription("Request")
 
-        if let plate = Plate(plate: "BTC-0021") {
+        if let plate = Plate(plate: "ABC-1234") {
             SinespClient().information(for: plate) { (info) in
                 print(info)
                 expectation.fulfill()
