@@ -39,6 +39,7 @@ public struct SinespClient {
         header.addChild(name: "b", value: "iPhone")
         header.addChild(name: "j")
         header.addChild(name: "i", value: latitude)
+        header.addChild(name: "c", value: "iPhone OS")
         header.addChild(name: "e", value: "SinespCidadao")
         header.addChild(name: "f", value: "10.0.0.1")
         header.addChild(name: "g", value: plate.token)
@@ -53,8 +54,16 @@ public struct SinespClient {
 
         Requester.sendRequest(.POST, endpoint: endpoint, headers: headers, body: soapRequest.xmlString) {
             (data, response, error) in
+            guard let data = data,
+                      xmlResponse = try? AEXMLDocument(xmlData: data) else {
+                completion(nil)
+                return
+            }
 
-            print(data)
+            let values = xmlResponse.root["soap:Body"]["ns2:getStatusResponse"]["return"].children
+
+            print(values)
+            completion(nil)
         }
     }
 }
