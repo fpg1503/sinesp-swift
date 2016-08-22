@@ -15,7 +15,7 @@ struct Requester {
         let sessionConfig = NSURLSessionConfiguration.defaultSessionConfiguration()
         let session = NSURLSession(configuration: sessionConfig)
 
-        guard var URL = NSURL(string: baseURL + endpoint) else { return }
+        guard let URL = NSURL(string: baseURL + endpoint) else { return }
         let request = NSMutableURLRequest(URL: URL)
 
         request.HTTPMethod = method.rawValue
