@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 A SINESP API Client that allows you to get information about brazilian vehicles (using their license plate).
                        DESC
 
-  s.homepage         = 'https://github.com/fpg1503/sinesp'
+  s.homepage         = 'https://github.com/fpg1503/sinesp-swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Francesco Perrotti-Garcia' => 'fpg1503@gmail.com' }
-  s.source           = { :git => 'https://github.com/fpg1503/sinesp.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fpg1503/sinesp-swift.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/fpg1503'
 
   s.ios.deployment_target = '8.0'
