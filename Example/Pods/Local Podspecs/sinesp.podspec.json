@@ -22,13 +22,13 @@
   "source_files": "sinesp/Classes/**/*",
   "dependencies": {
     "Arcane": [
-
+      "~> 0.3"
     ],
     "AEXML": [
-
+      "~> 3.0"
     ],
     "Regex.swift": [
-
+      "~> 0.1"
     ]
   }
 }
