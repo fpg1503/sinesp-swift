@@ -1,6 +1,6 @@
 PODS:
   - AEXML (3.0.0)
-  - Arcane (0.2.0)
+  - Arcane (0.3.0)
   - Regex.swift (0.1.1)
   - sinesp (0.1.0):
     - AEXML
@@ -16,9 +16,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AEXML: 716fb0a8decba4a3517324a71fee3685b30233d2
-  Arcane: 9cf005ab1ef56af2b8f1644f7399241753cdac13
+  Arcane: 3f6203426ba2195f8ac9eb4c9508493f3a903ae6
   Regex.swift: b9bfd7d8bcdd49c3a3c3ea8d549a1d12883c27c1
-  sinesp: a24905086847edb26ea2c22cbaae9e4791d5a269
+  sinesp: 2c472e974c57e15564dc57697aff6b9effa39de0
 
 PODFILE CHECKSUM: 680e0ffcf7c2005c4ffd7024835bab10ac1a32e2
 

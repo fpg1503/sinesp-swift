@@ -10,38 +10,38 @@
 		11473AF291E4DAC3D5C54860D2EA7782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B70EB56A971AB9B8C439B9D0A03B4F9 /* Foundation.framework */; };
 		127A1311A426B50EF1A0C4C4893D2286 /* Arcane-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F39924F8F325E613BDAAF960A2993 /* Arcane-dummy.m */; };
 		19A1501D60209CD6DB6CA5D681B22F92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B70EB56A971AB9B8C439B9D0A03B4F9 /* Foundation.framework */; };
-		1FFA9E3B27D74251A54DBF708401A052 /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC76A9ADD4E8F5DA6E8AD6A7BE7E2C0 /* Requester.swift */; };
-		297262436C839D887F6637EC27E153C3 /* CLLocation+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7E6B2CB2151FEC1A69D5FEA6D1FE4 /* CLLocation+Random.swift */; };
 		32B1E8EE38D41292286E6117BDFBF66C /* Pods-sinesp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B55F961AA84B4178D065EAE5A45EFF /* Pods-sinesp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35B1D81563DA523A76B99EACC440611E /* PlateInformation+AEXMLElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7AB1A8E02E758F179B830B1D874F8 /* PlateInformation+AEXMLElement.swift */; };
 		3BC2C552C104B9C1D2BCB89F9EDA0DF2 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C00C740FBF72CBB87EE3C7D8F359A1F /* Hash.swift */; };
 		406813F097E858BDE721E508C4C525A6 /* Regex.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF454EB481789FFB16F027A07ED2D20 /* Regex.swift-dummy.m */; };
 		438D67D809EBC2AC950710622C6D48E5 /* AEXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E76EB9E3AF5971E6264FA481B28D86EA /* AEXML-dummy.m */; };
 		467491B567A235B8106413FC4A0DD376 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBED2ABE4A451AE8DF78642B217EF8 /* Regex.swift */; };
 		4E79AFAC21E15D0F38ABCBC4E739D5EB /* Pods-sinesp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F81806345D48E7B90AD09652914E1 /* Pods-sinesp_Tests-dummy.m */; };
-		5F389FBB47CC64C673A0B2C14537871E /* sinesp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A52EC23CA91B7221AEB08B8F984F3E37 /* sinesp-dummy.m */; };
+		518B29D5571938507FE08484F33F7192 /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31091DB0FC75799959D8F6EF25417A /* Requester.swift */; };
 		6DEFA6AF5C60B714562A19E3A0E340BD /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA81375DF3CC67611BF95F37CF4D6162 /* AEXML.framework */; };
 		77A86F5B15929C437D991263AD7E8BEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B70EB56A971AB9B8C439B9D0A03B4F9 /* Foundation.framework */; };
+		81F078BA50DC9729643B1B9077570F53 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BFE4422F79ED70EE1038278D488BE2 /* State.swift */; };
 		84281E9A9F7E4E3740A386C209C73226 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6470E4C99AF6E1C3C29886095CD6F3E1 /* AES.swift */; };
+		87AA67CDC96D825E0D01F6CFE8685747 /* NSDateFormatter+SINESP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DC8795268BFEB161C6A52A571F23D /* NSDateFormatter+SINESP.swift */; };
+		8A29DF7302CC2A126D044BC158E4713C /* CLLocation+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A57AB4BD157E97ADACCF93054B758A /* CLLocation+Random.swift */; };
 		8B015D62CC9416783B11D3DE7B5A3E5C /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F75D94D8D27A2A3C46EFD51E448DA4 /* Obfuscator.swift */; };
 		8C3290373BE73ABF2EAF2E4722EF0A93 /* sinesp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F41EE6DC17E45C82F60CCBC50ACC6E14 /* sinesp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8ED0C920B7C66CA0EA418B137361B1FC /* Regex_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B90F2197FC2C5768A3D6C78171B7AB /* Regex_swift.framework */; };
-		920FD4766AC23619590913DA3B928F7E /* NSDateFormatter+SINESP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42721A63EF66F20DE16278B02CF7FB6B /* NSDateFormatter+SINESP.swift */; };
-		A3E8F65C1D6A563D00FB3FCF /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E8F65A1D6A548000FB3FCF /* State.swift */; };
-		AB8121E653D74DA8E5E56588433C1861 /* SinespClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD90DC33F0109CC1BCC8AE9D95CB2E0 /* SinespClient.swift */; };
 		AE715A89A98639A9FCB2983F119117CA /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19F9625481B8A54360913DB72A31548 /* Crypto.swift */; };
 		AECCB3B927D364AD31A1A1D899CB6780 /* Regex.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAA6B1548B766A3C04ADDFBB4BA5061 /* Regex.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B34367EF1C0015A2234F6C7FBF125196 /* AEXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77E1CCCF9A3CF8B0C3B8E6F7186447FB /* AEXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B346A3F08D9632971D52237D73325D9D /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA20DFB655EC0108EBCCB94990B19C4 /* AEXML.swift */; };
+		B3E5493B061AD3F9313DEAA736F45AEE /* PlateInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD37B909327AEABD9305961EADD416B8 /* PlateInformation.swift */; };
 		B7ADC748878EA9874E6FEDBF817BDB86 /* Arcane-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A590C6A8B2045B08A1A4FBDF445FE2 /* Arcane-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD5DEF982C1F0063D755DA5EB199E034 /* Plate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBDE3564E44E4B0FAD4E42F80301B2F /* Plate.swift */; };
+		C89A7C151D55C547308F6BFFBBD2AF2D /* sinesp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A52EC23CA91B7221AEB08B8F984F3E37 /* sinesp-dummy.m */; };
+		CEEAD81254C9D60DEA109FADE668A15E /* Plate+Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF06B9DFE29CF7587EC2FC6567D41A47 /* Plate+Token.swift */; };
 		D1B59439B57FC490E7FB0F13F60C3E48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B70EB56A971AB9B8C439B9D0A03B4F9 /* Foundation.framework */; };
 		D62977053123B3EDEAB443C3214E93D9 /* Arcane.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056C28B9EE7137BFF04F18EBF5EDC27F /* Arcane.framework */; };
 		DAB9BF8939E80908E7C039AA6FAC952E /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DAFB8FC1F19F76955B13D2ADDB8EEA /* HMAC.swift */; };
-		DBE31357F54B57E9E1D9BB2D41CEA436 /* PlateInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5366445C38B6DCA3C0F4DFB2FC53E /* PlateInformation.swift */; };
-		E6103BECECEF0A19F0315A49843BCB95 /* PlateInformation+AEXMLElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD846E0E2C1676AE5F85E138B9C6CF44 /* PlateInformation+AEXMLElement.swift */; };
+		EDF108883C4D8EFA2E1E47BE1A290FAC /* SinespClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AB16BFF99BEC9EC0BA61C16B143E8A /* SinespClient.swift */; };
 		F4625C6E5B8659EF927809DA2A0CA642 /* NSData+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7341FD86539AFB46A60D58DE1C312D /* NSData+Extensions.swift */; };
+		FA5356DA2515352AAEDE104E600FB60D /* Plate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AAAA76D8E117E2FEFB88B8C8522166 /* Plate.swift */; };
 		FD12E5EFECE2B9DAEB8274D025BD46C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B70EB56A971AB9B8C439B9D0A03B4F9 /* Foundation.framework */; };
-		FE334D92454F1AE4273B9E0FABB34E0B /* Plate+Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = C525BE3F4F6C8497C704D2507E274F07 /* Plate+Token.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,15 +102,13 @@
 		056C28B9EE7137BFF04F18EBF5EDC27F /* Arcane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arcane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08471348A9B11F393429B611D1C03388 /* Regex.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Regex.swift-prefix.pch"; sourceTree = "<group>"; };
 		0B70EB56A971AB9B8C439B9D0A03B4F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		0BD90DC33F0109CC1BCC8AE9D95CB2E0 /* SinespClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SinespClient.swift; sourceTree = "<group>"; };
 		0DAF4FE80920613FF9C7F3708B364E37 /* Pods-sinesp_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sinesp_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		10B55F961AA84B4178D065EAE5A45EFF /* Pods-sinesp_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sinesp_Tests-umbrella.h"; sourceTree = "<group>"; };
 		116D06810B67C1F3C5C0E67097605C0F /* Regex.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Regex.swift.xcconfig; sourceTree = "<group>"; };
 		183C6F6DE678C640A5EE2AF564F0E954 /* Arcane.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Arcane.modulemap; sourceTree = "<group>"; };
-		25D7E6B2CB2151FEC1A69D5FEA6D1FE4 /* CLLocation+Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CLLocation+Random.swift"; sourceTree = "<group>"; };
+		31BFE4422F79ED70EE1038278D488BE2 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		35F75D94D8D27A2A3C46EFD51E448DA4 /* Obfuscator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Obfuscator.swift; path = Sources/Obfuscator.swift; sourceTree = "<group>"; };
 		36A590C6A8B2045B08A1A4FBDF445FE2 /* Arcane-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arcane-umbrella.h"; sourceTree = "<group>"; };
-		42721A63EF66F20DE16278B02CF7FB6B /* NSDateFormatter+SINESP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSDateFormatter+SINESP.swift"; sourceTree = "<group>"; };
 		4573FEEEAE258A4B782B0771E7FE0753 /* Arcane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arcane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B90F2197FC2C5768A3D6C78171B7AB /* Regex_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Regex_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA412F4F6D5DDBB7CAFD43DF022108F /* sinesp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sinesp.xcconfig; sourceTree = "<group>"; };
@@ -130,27 +128,29 @@
 		7ACEAF104E1926F054E42B11D40A68AE /* Regex.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Regex.swift.modulemap; sourceTree = "<group>"; };
 		7BEA353B2C4430EF99798A1CCCB84378 /* sinesp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = sinesp.modulemap; sourceTree = "<group>"; };
 		885DEFC867472A9A814E8B7553EE28F0 /* Arcane.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arcane.xcconfig; sourceTree = "<group>"; };
-		8EBDE3564E44E4B0FAD4E42F80301B2F /* Plate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Plate.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		988EA04B5D693E05F38F417DB3EA38CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C7341FD86539AFB46A60D58DE1C312D /* NSData+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSData+Extensions.swift"; path = "Sources/NSData+Extensions.swift"; sourceTree = "<group>"; };
-		9DA5366445C38B6DCA3C0F4DFB2FC53E /* PlateInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlateInformation.swift; sourceTree = "<group>"; };
+		9E8DC8795268BFEB161C6A52A571F23D /* NSDateFormatter+SINESP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSDateFormatter+SINESP.swift"; sourceTree = "<group>"; };
 		9FAA6B1548B766A3C04ADDFBB4BA5061 /* Regex.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Regex.swift-umbrella.h"; sourceTree = "<group>"; };
-		A3E8F65A1D6A548000FB3FCF /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		A4AAAA76D8E117E2FEFB88B8C8522166 /* Plate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Plate.swift; sourceTree = "<group>"; };
+		A4AB16BFF99BEC9EC0BA61C16B143E8A /* SinespClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SinespClient.swift; sourceTree = "<group>"; };
 		A52EC23CA91B7221AEB08B8F984F3E37 /* sinesp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sinesp-dummy.m"; sourceTree = "<group>"; };
+		A8D7AB1A8E02E758F179B830B1D874F8 /* PlateInformation+AEXMLElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PlateInformation+AEXMLElement.swift"; sourceTree = "<group>"; };
 		AEF18974B19600D8A693B6D1E31357E1 /* AEXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEXML.xcconfig; sourceTree = "<group>"; };
-		AFC76A9ADD4E8F5DA6E8AD6A7BE7E2C0 /* Requester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
+		AF06B9DFE29CF7587EC2FC6567D41A47 /* Plate+Token.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Plate+Token.swift"; sourceTree = "<group>"; };
+		B9A57AB4BD157E97ADACCF93054B758A /* CLLocation+Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CLLocation+Random.swift"; sourceTree = "<group>"; };
+		BA31091DB0FC75799959D8F6EF25417A /* Requester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
 		BA8F3201060E42E2326D6ADB089FF1CC /* Pods-sinesp_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sinesp_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C19F9625481B8A54360913DB72A31548 /* Crypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Crypto.swift; path = Sources/Crypto.swift; sourceTree = "<group>"; };
 		C4EBED2ABE4A451AE8DF78642B217EF8 /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Regex.swift/Classes/Regex.swift; sourceTree = "<group>"; };
-		C525BE3F4F6C8497C704D2507E274F07 /* Plate+Token.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Plate+Token.swift"; sourceTree = "<group>"; };
 		C6D581F4C591894CE5770DF9A8AAD579 /* Regex_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Regex_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC011871053986092129291B4060E977 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC5EF984AD22B9F10FAEB9E5D55B0419 /* sinesp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sinesp-prefix.pch"; sourceTree = "<group>"; };
-		CD846E0E2C1676AE5F85E138B9C6CF44 /* PlateInformation+AEXMLElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PlateInformation+AEXMLElement.swift"; sourceTree = "<group>"; };
 		D091C30248A8DC6FCCEF4A06A89ED422 /* Arcane-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arcane-prefix.pch"; sourceTree = "<group>"; };
 		D20636ADB90C0ED9719928F3A610FE32 /* Pods-sinesp_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sinesp_Tests-resources.sh"; sourceTree = "<group>"; };
 		DB5C9FD8BF44DED1450E860884D891EB /* AEXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-prefix.pch"; sourceTree = "<group>"; };
+		DD37B909327AEABD9305961EADD416B8 /* PlateInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlateInformation.swift; sourceTree = "<group>"; };
 		E6739753B11A32C6D328E8550E14202C /* AEXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AEXML.modulemap; sourceTree = "<group>"; };
 		E76EB9E3AF5971E6264FA481B28D86EA /* AEXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEXML-dummy.m"; sourceTree = "<group>"; };
 		EA81375DF3CC67611BF95F37CF4D6162 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,7 +220,7 @@
 		1A078E40D599A42FB7D5670968144169 /* sinesp */ = {
 			isa = PBXGroup;
 			children = (
-				EF9DC5879246B780C91676E1AA147A09 /* sinesp */,
+				3547ABE8906C7A086FFCD257409F29B3 /* sinesp */,
 				E8F15C9D05D0DDBB50C243FEBFA4C5ED /* Support Files */,
 			);
 			name = sinesp;
@@ -255,28 +255,20 @@
 			path = "../Target Support Files/Regex.swift";
 			sourceTree = "<group>";
 		};
+		3547ABE8906C7A086FFCD257409F29B3 /* sinesp */ = {
+			isa = PBXGroup;
+			children = (
+				7F8BD0D86E6F9904D4CC32AD253DDC69 /* Classes */,
+			);
+			path = sinesp;
+			sourceTree = "<group>";
+		};
 		41D9677EDD8D56C69FA21DAD8182AB05 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				868972BF98CBF3A3AEED680E4C181D10 /* Pods-sinesp_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4C17DB9EAE37F36DCF93F0B3466FB2B8 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				25D7E6B2CB2151FEC1A69D5FEA6D1FE4 /* CLLocation+Random.swift */,
-				42721A63EF66F20DE16278B02CF7FB6B /* NSDateFormatter+SINESP.swift */,
-				8EBDE3564E44E4B0FAD4E42F80301B2F /* Plate.swift */,
-				C525BE3F4F6C8497C704D2507E274F07 /* Plate+Token.swift */,
-				9DA5366445C38B6DCA3C0F4DFB2FC53E /* PlateInformation.swift */,
-				CD846E0E2C1676AE5F85E138B9C6CF44 /* PlateInformation+AEXMLElement.swift */,
-				AFC76A9ADD4E8F5DA6E8AD6A7BE7E2C0 /* Requester.swift */,
-				0BD90DC33F0109CC1BCC8AE9D95CB2E0 /* SinespClient.swift */,
-				A3E8F65A1D6A548000FB3FCF /* State.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		54D6F27F15E14236357B9BFDF88EE822 /* iOS */ = {
@@ -322,6 +314,22 @@
 				BB912BA8BAD528B0D0A736C022B291CE /* Products */,
 				41D9677EDD8D56C69FA21DAD8182AB05 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7F8BD0D86E6F9904D4CC32AD253DDC69 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B9A57AB4BD157E97ADACCF93054B758A /* CLLocation+Random.swift */,
+				9E8DC8795268BFEB161C6A52A571F23D /* NSDateFormatter+SINESP.swift */,
+				A4AAAA76D8E117E2FEFB88B8C8522166 /* Plate.swift */,
+				AF06B9DFE29CF7587EC2FC6567D41A47 /* Plate+Token.swift */,
+				DD37B909327AEABD9305961EADD416B8 /* PlateInformation.swift */,
+				A8D7AB1A8E02E758F179B830B1D874F8 /* PlateInformation+AEXMLElement.swift */,
+				BA31091DB0FC75799959D8F6EF25417A /* Requester.swift */,
+				A4AB16BFF99BEC9EC0BA61C16B143E8A /* SinespClient.swift */,
+				31BFE4422F79ED70EE1038278D488BE2 /* State.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		868972BF98CBF3A3AEED680E4C181D10 /* Pods-sinesp_Tests */ = {
@@ -384,14 +392,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/sinesp";
-			sourceTree = "<group>";
-		};
-		EF9DC5879246B780C91676E1AA147A09 /* sinesp */ = {
-			isa = PBXGroup;
-			children = (
-				4C17DB9EAE37F36DCF93F0B3466FB2B8 /* Classes */,
-			);
-			path = sinesp;
 			sourceTree = "<group>";
 		};
 		F1C4035F801DB2A57195756A3C596993 /* Arcane */ = {
@@ -538,7 +538,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 064246BAAE472BC751FE05A62E298F82 /* Build configuration list for PBXNativeTarget "sinesp" */;
 			buildPhases = (
-				6198A95FBF186F6625AFECE00C1F5A7B /* Sources */,
+				1659C24BCF2D6626F3B3A8CBABEBFD52 /* Sources */,
 				2ADB2750F487A63478C2FA5EED5AA98C /* Frameworks */,
 				A4BDB4E4C84855E89F1FBEE71670C829 /* Headers */,
 			);
@@ -585,20 +585,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6198A95FBF186F6625AFECE00C1F5A7B /* Sources */ = {
+		1659C24BCF2D6626F3B3A8CBABEBFD52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				297262436C839D887F6637EC27E153C3 /* CLLocation+Random.swift in Sources */,
-				920FD4766AC23619590913DA3B928F7E /* NSDateFormatter+SINESP.swift in Sources */,
-				FE334D92454F1AE4273B9E0FABB34E0B /* Plate+Token.swift in Sources */,
-				A3E8F65C1D6A563D00FB3FCF /* State.swift in Sources */,
-				BD5DEF982C1F0063D755DA5EB199E034 /* Plate.swift in Sources */,
-				E6103BECECEF0A19F0315A49843BCB95 /* PlateInformation+AEXMLElement.swift in Sources */,
-				DBE31357F54B57E9E1D9BB2D41CEA436 /* PlateInformation.swift in Sources */,
-				1FFA9E3B27D74251A54DBF708401A052 /* Requester.swift in Sources */,
-				5F389FBB47CC64C673A0B2C14537871E /* sinesp-dummy.m in Sources */,
-				AB8121E653D74DA8E5E56588433C1861 /* SinespClient.swift in Sources */,
+				8A29DF7302CC2A126D044BC158E4713C /* CLLocation+Random.swift in Sources */,
+				87AA67CDC96D825E0D01F6CFE8685747 /* NSDateFormatter+SINESP.swift in Sources */,
+				CEEAD81254C9D60DEA109FADE668A15E /* Plate+Token.swift in Sources */,
+				FA5356DA2515352AAEDE104E600FB60D /* Plate.swift in Sources */,
+				35B1D81563DA523A76B99EACC440611E /* PlateInformation+AEXMLElement.swift in Sources */,
+				B3E5493B061AD3F9313DEAA736F45AEE /* PlateInformation.swift in Sources */,
+				518B29D5571938507FE08484F33F7192 /* Requester.swift in Sources */,
+				C89A7C151D55C547308F6BFFBBD2AF2D /* sinesp-dummy.m in Sources */,
+				EDF108883C4D8EFA2E1E47BE1A290FAC /* SinespClient.swift in Sources */,
+				81F078BA50DC9729643B1B9077570F53 /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

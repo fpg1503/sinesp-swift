@@ -1,9 +1,9 @@
 {
   "name": "sinesp",
   "version": "0.1.0",
-  "summary": "A short description of sinesp.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/sinesp",
+  "summary": "Swift wrapper of SINESP API (Brazilian National Public Security Information System)",
+  "description": "A SINESP API Client that allows you to get information about brazilian vehicles (using their license plate).",
+  "homepage": "https://github.com/fpg1503/sinesp",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,9 +12,10 @@
     "Francesco Perrotti-Garcia": "fpg1503@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/sinesp.git",
+    "git": "https://github.com/fpg1503/sinesp.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/fpg1503",
   "platforms": {
     "ios": "8.0"
   },
