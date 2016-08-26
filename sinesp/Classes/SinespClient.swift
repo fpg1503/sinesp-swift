@@ -11,9 +11,18 @@ private struct System {
     }
 }
 
+public struct ProxyConfiguration {
+    let url: String
+    let port: Int
+}
+
 public struct SinespClient {
 
-    public init() { }
+    public init(proxyConfiguraion: ProxyConfiguration? = nil) {
+        requester = Requester(proxyConfiguration: proxyConfiguraion)
+    }
+
+    private var requester: Requester
 
     public typealias PlateCompletion = (PlateInformation?) -> Void
     public func information(for plate: Plate,
@@ -50,9 +59,7 @@ public struct SinespClient {
                                       attributes: ["xmlns:webs": "http://soap.ws.placa.service.sinesp.serpro.gov.br/"])
         getStatus.addChild(name: "a", value: plate.plate)
 
-        print(soapRequest.xmlString)
-
-        Requester.sendRequest(.POST, endpoint: endpoint, headers: headers, body: soapRequest.xmlString) {
+        requester.sendRequest(.POST, endpoint: endpoint, headers: headers, body: soapRequest.xmlString) {
             (data, response, error) in
             guard let data = data,
                       xmlResponse = try? AEXMLDocument(xmlData: data) else {

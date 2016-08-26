@@ -1,19 +1,32 @@
 struct Requester {
 
-    static let baseURL = "http://sinespcidadao.sinesp.gov.br/sinesp-cidadao/"
+    init(proxyConfiguration: ProxyConfiguration? = nil) {
+
+        let sessionConfiguration = NSURLSessionConfiguration.defaultSessionConfiguration()
+
+        if let proxyConfiguration = proxyConfiguration {
+            sessionConfiguration.connectionProxyDictionary = [
+                kCFNetworkProxiesHTTPEnable: true,
+                kCFNetworkProxiesHTTPPort: proxyConfiguration.port,
+                kCFNetworkProxiesHTTPProxy: proxyConfiguration.url
+            ]
+        }
+        session = NSURLSession(configuration: sessionConfiguration)
+    }
+
+    let baseURL = "http://sinespcidadao.sinesp.gov.br/sinesp-cidadao/"
 
     enum Method: String {
         case POST = "POST"
     }
 
-    static func sendRequest(method: Method,
+    let session: NSURLSession
+
+    func sendRequest(method: Method,
                      endpoint: String,
                      headers: [String: String] = [:],
                      body: String,
                      completionHandler: (NSData?, NSURLResponse?, NSError?) -> Void) {
-
-        let sessionConfig = NSURLSessionConfiguration.defaultSessionConfiguration()
-        let session = NSURLSession(configuration: sessionConfig)
 
         guard let URL = NSURL(string: baseURL + endpoint) else { return }
         let request = NSMutableURLRequest(URL: URL)
