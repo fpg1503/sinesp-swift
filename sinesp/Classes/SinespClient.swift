@@ -14,6 +14,11 @@ private struct System {
 public struct ProxyConfiguration {
     let url: String
     let port: Int
+
+    public init(url: String, port: Int) {
+        self.url = url
+        self.port = port
+    }
 }
 
 public struct SinespClient {
