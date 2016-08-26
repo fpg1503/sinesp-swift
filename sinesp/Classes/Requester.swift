@@ -37,8 +37,6 @@ struct Requester {
 
         let task = session.dataTaskWithRequest(request, completionHandler: completionHandler)
         task.resume()
-
-        session.finishTasksAndInvalidate()
     }
 }
 
