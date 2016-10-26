@@ -14,7 +14,7 @@ struct Requester {
         session = NSURLSession(configuration: sessionConfiguration)
     }
 
-    let baseURL = "http://sinespcidadao.sinesp.gov.br/sinesp-cidadao/"
+    let baseURL = "http://sinespcidadao.sinesp.gov.br/sinesp-cidadao/mobile/"
 
     enum Method: String {
         case POST = "POST"
