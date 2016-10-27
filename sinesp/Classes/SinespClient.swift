@@ -33,12 +33,15 @@ public struct SinespClient {
     public func information(for plate: Plate,
                      at location: CLLocation = .random,
                         completion: PlateCompletion) {
+        
+        let cookie = "JSESSIONID=NnsohhN2Br1yJL66l-JK-oFE.cidadao1"
 
         let endpoint =  "consultar-placa"
         let headers = ["Content-Type": "text/xml; charset=utf-8",
                        "Accept-Encoding": "gzip, deflate",
                        "Host": "sinespcidadao.sinesp.gov.br",
                        "User-Agent": "SinespCidadao/4.0.11 CFNetwork/808.1.3 Darwin/16.1.0",
+                       "Cookie": cookie,
                        "Accept": "*/*"]
 
         let latitude  = String(format: "%0.7f", location.coordinate.latitude)
@@ -63,6 +66,7 @@ public struct SinespClient {
         header.addChild(name: "e", value: "SinespCidadao")
         header.addChild(name: "f", value: "10.0.0.1")
         header.addChild(name: "g", value: plate.token)
+        print(plate.token)
         header.addChild(name: "k", value: NSUUID().UUIDString)
         header.addChild(name: "d", value: System.version)
         header.addChild(name: "h", value: longitude)
