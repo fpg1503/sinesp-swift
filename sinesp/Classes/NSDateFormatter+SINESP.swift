@@ -1,12 +1,12 @@
 import Foundation
 
-extension NSDateFormatter {
-    static func sinespResponseDateFormatter() -> NSDateFormatter {
+extension DateFormatter {
+    static func sinespResponseDateFormatter() -> DateFormatter {
         return dateFormatter("dd/MM/yyyy 'às' HH:mm:ss")
     }
     
-    private static func dateFormatter(format: String) -> NSDateFormatter {
-        let formatter = NSDateFormatter()
+    fileprivate static func dateFormatter(_ format: String) -> DateFormatter {
+        let formatter = DateFormatter()
         formatter.dateFormat = format
         return formatter
     }

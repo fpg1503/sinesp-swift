@@ -1,8 +1,8 @@
 import CoreLocation
 
 private struct Constant {
-    private static let LatitudeOffset  = 38.5290245
-    private static let LongitudeOffset = 3.7506985
+    fileprivate static let LatitudeOffset  = 38.5290245
+    fileprivate static let LongitudeOffset = 3.7506985
 }
 
 private extension Double {

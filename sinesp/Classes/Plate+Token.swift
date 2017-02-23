@@ -1,7 +1,7 @@
 import Arcane
 
 private struct Key {
-    private static let secret = "7lYS859X6fhB5Ow"
+    fileprivate static let secret = "7lYS859X6fhB5Ow"
 }
 
 extension Plate {
