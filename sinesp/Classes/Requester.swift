@@ -17,7 +17,8 @@ struct Requester {
     let baseURL = "http://sinespcidadao.sinesp.gov.br/sinesp-cidadao/"
 
     enum Method: String {
-        case POST = "POST"
+        case get = "GET"
+        case post = "POST"
     }
 
     let session: URLSession
