@@ -40,7 +40,9 @@ extension PlateInformation: AEXMLElementDecodable {
                   let _plateValue         = values["placa"]           ?? nil,
                   let _dateValue          = values["data"]            ?? nil,
                   let _city               = values["municipio"]       ?? nil,
-                  let _stateValue         = values["uf"]              ?? nil else { return nil }
+                  let _stateValue         = values["uf"]              ?? nil else {
+                    return nil
+        }
 
         let formatter = DateFormatter.sinespResponseDateFormatter()
 
@@ -50,7 +52,9 @@ extension PlateInformation: AEXMLElementDecodable {
                   let _modelYear          = Int(_modelYearValue),
                   let _plate              = Plate(plate: _plateValue),
                   let _date               = formatter.date(from: _dateValue),
-                  let _state              = State(rawValue: _stateValue) else { return nil }
+                  let _state              = State(rawValue: _stateValue) else {
+                    return nil
+        }
 
         returnCode                    = _returnCode
         returnMessage                 = _returnMessage

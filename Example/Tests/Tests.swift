@@ -29,7 +29,7 @@ class Tests: XCTestCase {
             }
 
             waitForExpectations(timeout: 30) { (error) in
-                XCTAssertNotNil(error)
+                XCTAssertNil(error)
             }
         }
         

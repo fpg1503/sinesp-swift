@@ -4,8 +4,12 @@ extension DateFormatter {
     static func sinespResponseDateFormatter() -> DateFormatter {
         return dateFormatter("dd/MM/yyyy 'às' HH:mm:ss")
     }
+
+    static func requestDateFormatter() -> DateFormatter {
+        return dateFormatter("yyyy-MM-dd HH:mm:ss")
+    }
     
-    fileprivate static func dateFormatter(_ format: String) -> DateFormatter {
+    private static func dateFormatter(_ format: String) -> DateFormatter {
         let formatter = DateFormatter()
         formatter.dateFormat = format
         return formatter
