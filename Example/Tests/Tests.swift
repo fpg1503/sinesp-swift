@@ -8,7 +8,10 @@ class Tests: XCTestCase {
         
         if let plate = Plate(plate: "ABC-1234") {
             SinespClient().information(for: plate) { (information) in
-                guard let _info = information else { return }
+                guard let _info = information else {
+                    XCTFail()
+                    return
+                }
                 XCTAssertNotNil(_info.brand)
                 XCTAssertNotNil(_info.chassis)
                 XCTAssertNotNil(_info.city)
