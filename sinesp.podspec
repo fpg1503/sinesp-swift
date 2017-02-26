@@ -41,6 +41,6 @@ A SINESP API Client that allows you to get information about brazilian vehicles 
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Arcane'
   s.dependency 'AEXML'
-  s.dependency 'Regex.swift', '~> 0.1'
+  s.dependency 'Regex.swift', '~> 1.0'
 
 end
