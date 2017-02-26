@@ -2,18 +2,17 @@ import Regex_swift
 
 private extension String {
     var stringByRemovingWhitespaces: String {
-        let components = componentsSeparatedByCharactersInSet(.whitespaceCharacterSet())
-        return components.joinWithSeparator("")
+        let components = self.components(separatedBy: .whitespaces)
+        return components.joined(separator: "")
     }
 }
 
 public struct Plate {
     public init?(plate: String) {
         guard let regex = Regex(pattern: "^(\\w{3})-?(\\d{4})$") else { return nil }
-        let cleanPlate = plate.uppercaseString.stringByRemovingWhitespaces
+        let cleanPlate = plate.uppercased().stringByRemovingWhitespaces
 
-        guard let captureGroups = regex.matches(cleanPlate).first?.captureGroups
-            where captureGroups.count == 2 else { return nil }
+        guard let captureGroups = regex.matches(cleanPlate).first?.captureGroups, captureGroups.count == 2 else { return nil }
 
         let lettersString = captureGroups[0]
         let numbersString = captureGroups[1]

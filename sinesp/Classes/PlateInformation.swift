@@ -10,7 +10,7 @@ public struct PlateInformation {
     public let year: Int
     public let modelYear: Int
     public let plate: Plate
-    public let date: NSDate
+    public let date: Date
     public let city: String
     public let state: State
 }

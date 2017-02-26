@@ -39,8 +39,8 @@ A SINESP API Client that allows you to get information about brazilian vehicles 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'Arcane', '~> 0.3'
-  s.dependency 'AEXML', '~> 3.0'
+  s.dependency 'Arcane'
+  s.dependency 'AEXML'
   s.dependency 'Regex.swift', '~> 0.1'
 
 end

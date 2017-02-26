@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "Swift wrapper of SINESP API (Brazilian National Public Security Information System)",
   "description": "A SINESP API Client that allows you to get information about brazilian vehicles (using their license plate).",
-  "homepage": "https://github.com/fpg1503/sinesp",
+  "homepage": "https://github.com/fpg1503/sinesp-swift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Francesco Perrotti-Garcia": "fpg1503@gmail.com"
   },
   "source": {
-    "git": "https://github.com/fpg1503/sinesp.git",
+    "git": "https://github.com/fpg1503/sinesp-swift.git",
     "tag": "0.1.0"
   },
   "social_media_url": "https://twitter.com/fpg1503",
@@ -22,10 +22,10 @@
   "source_files": "sinesp/Classes/**/*",
   "dependencies": {
     "Arcane": [
-      "~> 0.3"
+
     ],
     "AEXML": [
-      "~> 3.0"
+
     ],
     "Regex.swift": [
       "~> 0.1"

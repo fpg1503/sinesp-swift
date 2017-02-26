@@ -8,18 +8,29 @@
 
 import Foundation
 
-public extension NSData {
-  
-  var hexString: String {
-    var result = ""
+public extension Data {
 
-    var bytes = [UInt8](count: length, repeatedValue: 0)
-    getBytes(&bytes, length: length)
+    // MARK: - Hex String
+    var hexString: String {
+        var result = ""
 
-    for byte in bytes {
-      result += String(format: "%02x", UInt(byte))
+        var bytes = [UInt8](repeating: 0, count: count)
+        copyBytes(to: &bytes, count: count)
+
+        for byte in bytes {
+            result += String(format: "%02x", UInt(byte))
+        }
+
+        return result
     }
 
-    return result
-  }
+
+    // MARK: - Base64
+    var base64: Data {
+        return base64EncodedData(options: [])
+    }
+
+    var base64String: String {
+        return base64EncodedString(options: [])
+    }
 }

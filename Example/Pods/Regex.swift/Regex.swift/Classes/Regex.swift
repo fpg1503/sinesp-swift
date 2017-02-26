@@ -10,8 +10,8 @@ private extension String {
         return self as NSString
     }
     
-    func substringWithRange(range: NSRange) -> String {
-        return self._ns.substringWithRange(range)
+    func substringWithRange(_ range: NSRange) -> String {
+        return self._ns.substring(with: range)
     }
 }
 
@@ -19,7 +19,7 @@ private extension NSTextCheckingResult {
     var ranges: [NSRange] {
         var ranges = [NSRange]()
         for i in 0 ..< numberOfRanges {
-            ranges.append(rangeAtIndex(i))
+            ranges.append(rangeAt(i))
         }
         return ranges
     }
@@ -39,11 +39,11 @@ public struct Match {
 
 public struct Regex {
     public let pattern: String
-    public let options: NSRegularExpressionOptions
+    public let options: NSRegularExpression.Options
     
-    private let matcher: NSRegularExpression
+    fileprivate let matcher: NSRegularExpression
     
-    public init?(pattern: String, options: NSRegularExpressionOptions = []) {
+    public init?(pattern: String, options: NSRegularExpression.Options = []) {
         guard let matcher = try? NSRegularExpression(pattern: pattern, options: options) else {
             return nil
         }
@@ -53,16 +53,16 @@ public struct Regex {
         self.options = options
     }
     
-    public func match(string: String, options: NSMatchingOptions = [], range: NSRange? = .None) -> Bool {
+    public func match(_ string: String, options: NSRegularExpression.MatchingOptions = [], range: NSRange? = .none) -> Bool {
         let range = range ?? string.wholeRange
         
-        return matcher.numberOfMatchesInString(string, options: options, range: range) != 0
+        return matcher.numberOfMatches(in: string, options: options, range: range) != 0
     }
     
-    public func matches(string: String, options: NSMatchingOptions = [], range: NSRange? = .None) -> [Match] {
+    public func matches(_ string: String, options: NSRegularExpression.MatchingOptions = [], range: NSRange? = .none) -> [Match] {
         let range = range ?? string.wholeRange
         
-        return matcher.matchesInString(string, options: options, range: range).map { Match(baseString: string, checkingResult: $0)
+        return matcher.matches(in: string, options: options, range: range).map { Match(baseString: string, checkingResult: $0)
         }
     }
 }

@@ -6,7 +6,7 @@ private struct System {
         #if os(OSX)
             return "9.1"
         #else
-            return UIDevice.currentDevice().systemVersion
+            return UIDevice.current.systemVersion
         #endif
     }
 }
@@ -27,12 +27,12 @@ public struct SinespClient {
         requester = Requester(proxyConfiguration: proxyConfiguraion)
     }
 
-    private var requester: Requester
+    fileprivate var requester: Requester
 
     public typealias PlateCompletion = (PlateInformation?) -> Void
     public func information(for plate: Plate,
                      at location: CLLocation = .random,
-                        completion: PlateCompletion) {
+                        completion: @escaping PlateCompletion) {
 
         let endpoint =  "ConsultaPlacaNovo02102014"
         let headers = ["Content-Type": "text/xml; charset=utf-8",
@@ -64,10 +64,10 @@ public struct SinespClient {
                                       attributes: ["xmlns:webs": "http://soap.ws.placa.service.sinesp.serpro.gov.br/"])
         getStatus.addChild(name: "a", value: plate.plate)
 
-        requester.sendRequest(.POST, endpoint: endpoint, headers: headers, body: soapRequest.xmlString) {
+        requester.sendRequest(method: .POST, endpoint: endpoint, headers: headers, body: soapRequest.xml) {
             (data, response, error) in
             guard let data = data,
-                      xmlResponse = try? AEXMLDocument(xmlData: data) else {
+                let xmlResponse = try? AEXMLDocument(xml:data) else {
                 completion(nil)
                 return
             }

@@ -6,6 +6,7 @@ CommonCrypto in Swift
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Arcane.svg?style=flat)](http://cocoadocs.org/docsets/Arcane)
 [![Platform](https://img.shields.io/cocoapods/p/Arcane.svg?style=flat)](http://cocoadocs.org/docsets/Arcane)
+<img src="https://img.shields.io/badge/%20in-swift%203.0-orange.svg">
 
 ![](Screenshots/Arcane.png)
 
@@ -16,7 +17,7 @@ Read my answer here [Importing CommonCrypto in a Swift framework](http://stackov
 ## Features
 
 - Work on NSData, String
-- Message Digest, SHA, HMAC
+- Message Digest, SHA, HMAC, Base64
 - Hash Algorithm: MD2, MD4, MD5, SHA1, SHA256, SHA224, SHA384, SHA512
 
 ### Hash
@@ -32,12 +33,19 @@ Hash.SHA246("https://www.google.com/logos/doodles/2016/parents-day-in-korea-5757
 HMAC.SHA1("https://www.google.com/logos/doodles/2016/parents-day-in-korea-5757703554072576-hp2x.jpg", key: "google") // 5f4474c8872d73c1490241ab015f6c672c6dcdc8
 ```
 
+### Base64
+
+```swift
+Base64.SHA1("https://www.google.com/logos/doodles/2016/parents-day-in-korea-5757703554072576-hp2x.jpg", key: "google") // X0R0yIctc8FJAkGrAV9sZyxtzcg=
+```
+
 ### AES
 
 ```swift
 let _ = AES.encrypt("string", key: "secret")
 let _ = AES.decrypt(data, key: keyData)
 ```
+
 
 ### Obfuscator
 

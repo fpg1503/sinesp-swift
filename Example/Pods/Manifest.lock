@@ -1,10 +1,10 @@
 PODS:
-  - AEXML (3.0.0)
-  - Arcane (0.3.0)
+  - AEXML (4.0.2)
+  - Arcane (0.5.0)
   - Regex.swift (0.1.1)
   - sinesp (0.1.0):
-    - AEXML (~> 3.0)
-    - Arcane (~> 0.3)
+    - AEXML
+    - Arcane
     - Regex.swift (~> 0.1)
 
 DEPENDENCIES:
@@ -15,11 +15,11 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AEXML: 716fb0a8decba4a3517324a71fee3685b30233d2
-  Arcane: 3f6203426ba2195f8ac9eb4c9508493f3a903ae6
+  AEXML: 7de81f28c6c876a210f31924acc2e326cd01e162
+  Arcane: 61f912466a57490ab852d733eaea3b32d66a241f
   Regex.swift: b9bfd7d8bcdd49c3a3c3ea8d549a1d12883c27c1
-  sinesp: 28acb816ca943e42d39454f75e6f64ca969adffd
+  sinesp: 3a1662ddbe9f10ffb544d85ff571743d4cbe6279
 
 PODFILE CHECKSUM: 680e0ffcf7c2005c4ffd7024835bab10ac1a32e2
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.0.beta.1

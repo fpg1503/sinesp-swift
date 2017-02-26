@@ -28,29 +28,29 @@ extension PlateInformation: AEXMLElementDecodable {
         let values = element.values
 
         guard let _returnCodeValue    = values["codigoRetorno"]   ?? nil,
-                  _returnMessage      = values["mensagemRetorno"] ?? nil,
-                  _statusCodeValue    = values["codigoSituacao"]  ?? nil,
-                  _statusMessage      = values["situacao"]        ?? nil,
-                  _chassis            = values["chassi"]          ?? nil,
-                  _model              = values["modelo"]          ?? nil,
-                  _brand              = values["marca"]           ?? nil,
-                  _color              = values["cor"]             ?? nil,
-                  _yearValue          = values["ano"]             ?? nil,
-                  _modelYearValue     = values["anoModelo"]       ?? nil,
-                  _plateValue         = values["placa"]           ?? nil,
-                  _dateValue          = values["data"]            ?? nil,
-                  _city               = values["municipio"]       ?? nil,
-                  _stateValue         = values["uf"]              ?? nil else { return nil }
+                  let _returnMessage      = values["mensagemRetorno"] ?? nil,
+                  let _statusCodeValue    = values["codigoSituacao"]  ?? nil,
+                  let _statusMessage      = values["situacao"]        ?? nil,
+                  let _chassis            = values["chassi"]          ?? nil,
+                  let _model              = values["modelo"]          ?? nil,
+                  let _brand              = values["marca"]           ?? nil,
+                  let _color              = values["cor"]             ?? nil,
+                  let _yearValue          = values["ano"]             ?? nil,
+                  let _modelYearValue     = values["anoModelo"]       ?? nil,
+                  let _plateValue         = values["placa"]           ?? nil,
+                  let _dateValue          = values["data"]            ?? nil,
+                  let _city               = values["municipio"]       ?? nil,
+                  let _stateValue         = values["uf"]              ?? nil else { return nil }
 
-        let formatter = NSDateFormatter.sinespResponseDateFormatter()
+        let formatter = DateFormatter.sinespResponseDateFormatter()
 
         guard let _returnCode         = Int(_returnCodeValue),
-                  _statusCode         = Int(_statusCodeValue),
-                  _year               = Int(_yearValue),
-                  _modelYear          = Int(_modelYearValue),
-                  _plate              = Plate(plate: _plateValue),
-                  _date               = formatter.dateFromString(_dateValue),
-                  _state              = State(rawValue: _stateValue) else { return nil }
+                  let _statusCode         = Int(_statusCodeValue),
+                  let _year               = Int(_yearValue),
+                  let _modelYear          = Int(_modelYearValue),
+                  let _plate              = Plate(plate: _plateValue),
+                  let _date               = formatter.date(from: _dateValue),
+                  let _state              = State(rawValue: _stateValue) else { return nil }
 
         returnCode                    = _returnCode
         returnMessage                 = _returnMessage
