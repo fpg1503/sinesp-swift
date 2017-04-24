@@ -49,25 +49,23 @@ public struct SinespClient {
         let date = formatter.string(from: Date())
 
         let soapRequest = AEXMLDocument()
-        let attributes = ["xmlns:soap": "http://schemas.xmlsoap.org/soap/envelope/",
-                          "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                          "xmlns:xsd": "http://www.w3.org/2001/XMLSchema"]
-        let envelope = soapRequest.addChild(name: "soap:Envelope", attributes: attributes)
-        let header = envelope.addChild(name: "soap:Header")
+        let attributes = ["xmlns:v": "http://schemas.xmlsoap.org/soap/envelope/"]
+        let envelope = soapRequest.addChild(name: "v:Envelope", attributes: attributes)
+        let header = envelope.addChild(name: "v:Header")
         header.addChild(name: "b", value: "iPhone")
         header.addChild(name: "c", value: "ANDROID") //Oh, the irony
         header.addChild(name: "d", value: System.version)
         header.addChild(name: "i", value: latitude)
-        header.addChild(name: "e", value: "SinespCidadao")
+        header.addChild(name: "e", value: "4.1.5")
         header.addChild(name: "f", value: "10.0.0.1")
         header.addChild(name: "g", value: plate.token)
         header.addChild(name: "k", value: uuid)
         header.addChild(name: "h", value: longitude)
         header.addChild(name: "l", value: date)
         header.addChild(name: "m", value: "8797e74f0d6eb7b1ff3dc114d4aa12d3")
-        let body = envelope.addChild(name: "soap:Body")
-        let getStatus = body.addChild(name: "webs:getStatus",
-                                      attributes: ["xmlns:webs": "http://soap.ws.placa.service.sinesp.serpro.gov.br/"])
+        let body = envelope.addChild(name: "v:Body")
+        let getStatus = body.addChild(name: "n0:getStatus",
+                                      attributes: ["xmlns:n0": "http://soap.ws.placa.service.sinesp.serpro.gov.br/"])
         getStatus.addChild(name: "a", value: plate.plate)
 
         captchaCookie { (cookie) in
