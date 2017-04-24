@@ -9,7 +9,7 @@ private extension Double {
     static var randomDouble: Double {
         return Double(Float(arc4random()) / Float(UINT32_MAX))
     }
-    static var π: Double { return M_PI }
+    static var π: Double { return .pi }
 }
 
 private extension CLLocationDegrees {
