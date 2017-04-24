@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'sinesp'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Swift wrapper of SINESP API (Brazilian National Public Security Information System)'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ A SINESP API Client that allows you to get information about brazilian vehicles 
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Arcane'
-  s.dependency 'AEXML'
+  s.dependency 'AEXML', '~> 4.0'
   s.dependency 'Regex.swift', '~> 1.0'
 
 end
