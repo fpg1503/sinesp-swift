@@ -1,4 +1,14 @@
 struct Requester {
+    
+    private class Delegate: NSObject, URLSessionDelegate {
+        func urlSession(_ session: URLSession, didReceive challenge: URLAuthenticationChallenge, completionHandler: @escaping (URLSession.AuthChallengeDisposition, URLCredential?) -> Void) {
+            if challenge.protectionSpace.authenticationMethod == NSURLAuthenticationMethodServerTrust,
+                let trust = challenge.protectionSpace.serverTrust {
+                let credential = URLCredential(trust: trust)
+                completionHandler(.useCredential, credential)
+            }
+        }
+    }
 
     init(proxyConfiguration: ProxyConfiguration? = nil) {
 
@@ -11,10 +21,11 @@ struct Requester {
                 kCFNetworkProxiesHTTPProxy as AnyHashable: proxyConfiguration.url
             ]
         }
-        session = URLSession(configuration: sessionConfiguration)
+        
+        session = URLSession(configuration: sessionConfiguration, delegate: Delegate(), delegateQueue: nil)
     }
 
-    let baseURL = "http://sinespcidadao.sinesp.gov.br/sinesp-cidadao/"
+    let baseURL = "https://sinespcidadao.sinesp.gov.br/sinesp-cidadao/"
 
     enum Method: String {
         case get = "GET"
